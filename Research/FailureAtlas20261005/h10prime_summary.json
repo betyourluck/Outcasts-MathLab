@@ -1,0 +1,369 @@
+{
+ "sqfree_rows": 102571,
+ "B=0": {
+  "cells": 2884,
+  "deterministic_mismatch(L<=1)": 0,
+  "by_L": {
+   "0": {
+    "rows": 1,
+    "model": 1.0,
+    "observed": 1,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "1": {
+    "rows": 18711,
+    "model": 18516.0,
+    "observed": 18516,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "2": {
+    "rows": 42595,
+    "model": 37381.7,
+    "observed": 39479,
+    "ratio": 1.0561,
+    "z_indep": 35.53
+   },
+   "3": {
+    "rows": 31705,
+    "model": 23118.1,
+    "observed": 25420,
+    "ratio": 1.0996,
+    "z_indep": 35.01
+   },
+   "4": {
+    "rows": 8805,
+    "model": 5141.6,
+    "observed": 5530,
+    "ratio": 1.0755,
+    "z_indep": 10.27
+   },
+   "5": {
+    "rows": 750,
+    "model": 323.1,
+    "observed": 367,
+    "ratio": 1.1359,
+    "z_indep": 3.79
+   },
+   "6": {
+    "rows": 4,
+    "model": 0.4,
+    "observed": 0,
+    "ratio": 0.0,
+    "z_indep": -0.69
+   }
+  },
+  "L>=2_by_omega": {
+   "2": {
+    "rows": 42595,
+    "model": 37381.7,
+    "observed": 39479,
+    "ratio": 1.0561,
+    "z_indep": 35.53
+   },
+   "3": {
+    "rows": 31705,
+    "model": 23118.1,
+    "observed": 25420,
+    "ratio": 1.0996,
+    "z_indep": 35.01
+   },
+   "4": {
+    "rows": 8805,
+    "model": 5141.6,
+    "observed": 5530,
+    "ratio": 1.0755,
+    "z_indep": 10.27
+   },
+   "5": {
+    "rows": 750,
+    "model": 323.1,
+    "observed": 367,
+    "ratio": 1.1359,
+    "z_indep": 3.79
+   },
+   "6": {
+    "rows": 4,
+    "model": 0.4,
+    "observed": 0,
+    "ratio": 0.0,
+    "z_indep": -0.69
+   }
+  },
+  "L>=2_total": {
+   "rows": 83859,
+   "model": 65964.9,
+   "observed": 70796,
+   "ratio": 1.0732,
+   "z_indep": 49.9
+  }
+ },
+ "H10prime_b_strata(B=0 model, omega 2-3)": {
+  "omega=2,has_small=False": {
+   "rows": 19001,
+   "model": 16958.9,
+   "observed": 16998,
+   "ratio": 1.0023
+  },
+  "omega=2,has_small=True": {
+   "rows": 23594,
+   "model": 20422.7,
+   "observed": 22481,
+   "ratio": 1.1008
+  },
+  "omega=3,has_small=False": {
+   "rows": 2345,
+   "model": 1863.2,
+   "observed": 1900,
+   "ratio": 1.0198
+  },
+  "omega=3,has_small=True": {
+   "rows": 29360,
+   "model": 21254.9,
+   "observed": 23520,
+   "ratio": 1.1066
+  }
+ },
+ "B=7": {
+  "cells": 4511,
+  "deterministic_mismatch(L<=1)": 0,
+  "by_L": {
+   "0": {
+    "rows": 2,
+    "model": 2.0,
+    "observed": 2,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "1": {
+    "rows": 38365,
+    "model": 37639.0,
+    "observed": 37639,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "2": {
+    "rows": 49807,
+    "model": 41846.0,
+    "observed": 41675,
+    "ratio": 0.9959,
+    "z_indep": -2.43
+   },
+   "3": {
+    "rows": 13686,
+    "model": 9574.6,
+    "observed": 9577,
+    "ratio": 1.0002,
+    "z_indep": 0.05
+   },
+   "4": {
+    "rows": 708,
+    "model": 413.9,
+    "observed": 418,
+    "ratio": 1.0099,
+    "z_indep": 0.38
+   },
+   "5": {
+    "rows": 3,
+    "model": 1.7,
+    "observed": 2,
+    "ratio": 1.1516,
+    "z_indep": 0.37
+   }
+  },
+  "L>=2_by_omega": {
+   "2": {
+    "rows": 26319,
+    "model": 23393.8,
+    "observed": 23527,
+    "ratio": 1.0057,
+    "z_indep": 2.96
+   },
+   "3": {
+    "rows": 28421,
+    "model": 22391.1,
+    "observed": 22337,
+    "ratio": 0.9976,
+    "z_indep": -0.91
+   },
+   "4": {
+    "rows": 8710,
+    "model": 5671.8,
+    "observed": 5441,
+    "ratio": 0.9593,
+    "z_indep": -6.24
+   },
+   "5": {
+    "rows": 750,
+    "model": 379.2,
+    "observed": 367,
+    "ratio": 0.9678,
+    "z_indep": -1.02
+   },
+   "6": {
+    "rows": 4,
+    "model": 0.4,
+    "observed": 0,
+    "ratio": 0.0,
+    "z_indep": -0.69
+   }
+  },
+  "L>=2_total": {
+   "rows": 64204,
+   "model": 51836.2,
+   "observed": 51672,
+   "ratio": 0.9968,
+   "z_indep": -1.95
+  }
+ },
+ "B=23": {
+  "cells": 12240,
+  "deterministic_mismatch(L<=1)": 0,
+  "by_L": {
+   "0": {
+    "rows": 78,
+    "model": 50.0,
+    "observed": 50,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "1": {
+    "rows": 56114,
+    "model": 51584.0,
+    "observed": 51584,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "2": {
+    "rows": 42988,
+    "model": 35216.8,
+    "observed": 35069,
+    "ratio": 0.9958,
+    "z_indep": -2.29
+   },
+   "3": {
+    "rows": 3386,
+    "model": 2583.7,
+    "observed": 2605,
+    "ratio": 1.0082,
+    "z_indep": 1.01
+   },
+   "4": {
+    "rows": 5,
+    "model": 3.6,
+    "observed": 5,
+    "ratio": 1.3889,
+    "z_indep": 1.51
+   }
+  },
+  "L>=2_by_omega": {
+   "2": {
+    "rows": 19001,
+    "model": 16958.9,
+    "observed": 16998,
+    "ratio": 1.0023,
+    "z_indep": 1.04
+   },
+   "3": {
+    "rows": 20656,
+    "model": 16475.9,
+    "observed": 16385,
+    "ratio": 0.9945,
+    "z_indep": -1.89
+   },
+   "4": {
+    "rows": 6251,
+    "model": 4127.9,
+    "observed": 4043,
+    "ratio": 0.9794,
+    "z_indep": -2.99
+   },
+   "5": {
+    "rows": 471,
+    "model": 241.4,
+    "observed": 253,
+    "ratio": 1.048,
+    "z_indep": 1.47
+   }
+  },
+  "L>=2_total": {
+   "rows": 46379,
+   "model": 37804.1,
+   "observed": 37679,
+   "ratio": 0.9967,
+   "z_indep": -1.84
+  }
+ },
+ "B=100": {
+  "cells": 24610,
+  "deterministic_mismatch(L<=1)": 0,
+  "by_L": {
+   "0": {
+    "rows": 2300,
+    "model": 1388.0,
+    "observed": 1388,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "1": {
+    "rows": 79462,
+    "model": 70293.0,
+    "observed": 70293,
+    "ratio": 1.0,
+    "z_indep": null
+   },
+   "2": {
+    "rows": 20746,
+    "model": 17608.7,
+    "observed": 17584,
+    "ratio": 0.9986,
+    "z_indep": -0.57
+   },
+   "3": {
+    "rows": 63,
+    "model": 50.1,
+    "observed": 48,
+    "ratio": 0.9588,
+    "z_indep": -0.74
+   }
+  },
+  "L>=2_by_omega": {
+   "2": {
+    "rows": 10789,
+    "model": 9674.1,
+    "observed": 9688,
+    "ratio": 1.0014,
+    "z_indep": 0.5
+   },
+   "3": {
+    "rows": 8799,
+    "model": 7128.9,
+    "observed": 7093,
+    "ratio": 0.995,
+    "z_indep": -1.17
+   },
+   "4": {
+    "rows": 1211,
+    "model": 851.9,
+    "observed": 846,
+    "ratio": 0.993,
+    "z_indep": -0.49
+   },
+   "5": {
+    "rows": 10,
+    "model": 3.9,
+    "observed": 5,
+    "ratio": 1.2766,
+    "z_indep": 0.96
+   }
+  },
+  "L>=2_total": {
+   "rows": 20809,
+   "model": 17658.8,
+   "observed": 17632,
+   "ratio": 0.9985,
+   "z_indep": -0.62
+  }
+ }
+}
