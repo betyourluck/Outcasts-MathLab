@@ -1,0 +1,3 @@
+2026-10-08T11:27:07Z first run
+TypeError while sorting the C3 recalibration table: non-deterministic rows (two or more primes above 23) whose model probability is exactly 0 or 1 have no P-bin label (the bins exclude the end points), and the None label could not be sorted.
+No judgement had been written. Fix: such rows stay outside the P-bin layer (as the contract says); in C3 they form their own strata "P=0" / "P=1", and their agreement with the observation is reported as a measurement.
