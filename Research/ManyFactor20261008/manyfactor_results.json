@@ -1,0 +1,92 @@
+{
+ "contract": "Research/ManyFactor20261008/contract.md @ c5f2b00",
+ "primes": 2082,
+ "rows": 127002,
+ "B_values": [
+  22
+ ],
+ "M1_Z4": 1,
+ "M1_primes": [
+  3678481
+ ],
+ "M2_m10": {
+  "many_factor": 1,
+  "budget_order": 5,
+  "rough": 213,
+  "order_many<budget<rough": true
+ },
+ "M5_m15": {
+  "many_factor": 0,
+  "budget_order": 1,
+  "rough": 116,
+  "order_many<budget<rough": true
+ },
+ "M5_m20": {
+  "many_factor": 0,
+  "budget_order": 0,
+  "rough": 71,
+  "order_many<budget<rough": false
+ },
+ "M3_M_p(3)": {
+  "min": 31,
+  "p1": 34,
+  "median": 40,
+  "max": 49,
+  "argmin": [
+   3515089
+  ]
+ },
+ "M3_M_p(4)": {
+  "min": 10,
+  "p1": 13,
+  "median": 18,
+  "max": 26,
+  "argmin": [
+   3121561
+  ]
+ },
+ "M3_M_p(5)": {
+  "min": 0,
+  "p1": 1,
+  "median": 4,
+  "max": 10,
+  "argmin": [
+   3025681,
+   3252481,
+   3628969,
+   3917041
+  ]
+ },
+ "M4": {
+  "witness_pairs_among_omega>=4": {
+   "min": 0,
+   "p1": 3,
+   "median": 7,
+   "max": 17
+  },
+  "hist": {
+   "0": 1,
+   "1": 2,
+   "2": 11,
+   "3": 63,
+   "4": 142,
+   "5": 193,
+   "6": 286,
+   "7": 353,
+   "8": 332,
+   "9": 274,
+   "10": 206,
+   "11": 101,
+   "12": 74,
+   "13": 33,
+   "14": 7,
+   "15": 2,
+   "16": 1,
+   "17": 1
+  },
+  "rate_among_omega>=4": 0.4102,
+  "rows_omega>=4": 38288
+ },
+ "all_box_min_witness_pairs": 3,
+ "seconds": 8.1
+}
