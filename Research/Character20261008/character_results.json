@@ -1,0 +1,172 @@
+{
+ "contract": "Research/Character20261008/contract.md @ 58fb041",
+ "primes": 2001,
+ "rows": 125297,
+ "X1_violations": 0,
+ "T=23": {
+  "O": 130197,
+  "E": 133858.6,
+  "O_over_E": 0.9726,
+  "z": -22.53,
+  "by_large_count": {
+   "0": [
+    32,
+    32.0,
+    1.0
+   ],
+   "1": [
+    83340,
+    83361.0,
+    0.9997
+   ],
+   "2": [
+    43306,
+    46185.2,
+    0.9377
+   ],
+   "3": [
+    3486,
+    4233.8,
+    0.8234
+   ],
+   "4": [
+    33,
+    46.6,
+    0.7078
+   ]
+  }
+ },
+ "T=100": {
+  "O": 130197,
+  "E": 131426.2,
+  "O_over_E": 0.9906,
+  "z": -9.9,
+  "by_large_count": {
+   "0": [
+    398,
+    398.0,
+    1.0
+   ],
+   "1": [
+    100610,
+    100631.0,
+    0.9998
+   ],
+   "2": [
+    28797,
+    29947.0,
+    0.9616
+   ],
+   "3": [
+    392,
+    450.2,
+    0.8706
+   ]
+  }
+ },
+ "T=1000": {
+  "O": 130197,
+  "E": 130238.0,
+  "O_over_E": 0.9997,
+  "z": -0.79,
+  "by_large_count": {
+   "0": [
+    7107,
+    7107.0,
+    1.0
+   ],
+   "1": [
+    117751,
+    117753.0,
+    1.0
+   ],
+   "2": [
+    5339,
+    5378.0,
+    0.9927
+   ]
+  }
+ },
+ "X2_pass": true,
+ "X3_pass": true,
+ "X5_share_obs_with_at_most_one_factor_above_1000": 0.959,
+ "X5_obstructions": 130197,
+ "X6_top_d": {
+  "-2": {
+   "obstructions": 24984,
+   "G_plus_share": 0.4675,
+   "pairs": 125297
+  },
+  "-1": {
+   "obstructions": 20138,
+   "G_plus_share": 0.5077,
+   "pairs": 125297
+  },
+  "-6": {
+   "obstructions": 14818,
+   "G_plus_share": 0.5826,
+   "pairs": 48024
+  },
+  "-3": {
+   "obstructions": 11969,
+   "G_plus_share": 0.4997,
+   "pairs": 48024
+  },
+  "-5": {
+   "obstructions": 10128,
+   "G_plus_share": 0.7141,
+   "pairs": 28014
+  },
+  "-14": {
+   "obstructions": 7644,
+   "G_plus_share": 0.7,
+   "pairs": 20010
+  },
+  "-10": {
+   "obstructions": 7462,
+   "G_plus_share": 0.6456,
+   "pairs": 28014
+  },
+  "-21": {
+   "obstructions": 4826,
+   "G_plus_share": 1.0,
+   "pairs": 8004
+  },
+  "-15": {
+   "obstructions": 4452,
+   "G_plus_share": 1.0,
+   "pairs": 8004
+  },
+  "-11": {
+   "obstructions": 3910,
+   "G_plus_share": 0.5841,
+   "pairs": 12006
+  },
+  "-22": {
+   "obstructions": 3827,
+   "G_plus_share": 0.6667,
+   "pairs": 12006
+  },
+  "-7": {
+   "obstructions": 3326,
+   "G_plus_share": 0.8,
+   "pairs": 20010
+  },
+  "-30": {
+   "obstructions": 2848,
+   "G_plus_share": 0.5041,
+   "pairs": 8004
+  },
+  "-13": {
+   "obstructions": 1970,
+   "G_plus_share": 0.7476,
+   "pairs": 4002
+  },
+  "-17": {
+   "obstructions": 1846,
+   "G_plus_share": 0.7476,
+   "pairs": 4002
+  }
+ },
+ "seconds": 16.7
+}

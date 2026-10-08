@@ -1,0 +1,4 @@
+2026-10-08T09:02:12Z first run
+STOP: divisor methods disagree at (4716961, 22, 1)
+cause: trial-division prime table stopped below 10000; 22*4716961+1 = 103773143 = 10039 * 10337 (sqrt 10186) was treated as prime.
+fix: prime table extended to 20000 (sqrt of the largest ap+u in range is 10723). No judgement had been computed.
