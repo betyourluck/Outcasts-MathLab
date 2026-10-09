@@ -1,0 +1,174 @@
+{
+ "contract": "Research/Recalibration20261010/contract.md @ 440518e",
+ "D0_reproduce": {
+  "obs": {
+   "T2": -161.705,
+   "T3": -49.255,
+   "T4": -5.963
+  },
+  "S_over_E": 1.0,
+  "expected": {
+   "T2": -161.705,
+   "T3": -49.255,
+   "T4": -5.963,
+   "S_over_E": 1.0
+  }
+ },
+ "D0_pass": true,
+ "D1_refit_bootstrap": {
+  "cells": 14,
+  "S_over_E_fitted": 1.0,
+  "T2": {
+   "obs": -161.705,
+   "boot_mean": -0.827,
+   "boot_sd": 84.602,
+   "p_two_sided": 0.048,
+   "p_low": 0.024,
+   "p_high": 0.9765
+  },
+  "T3": {
+   "obs": -49.255,
+   "boot_mean": -3.647,
+   "boot_sd": 76.409,
+   "p_two_sided": 0.5367,
+   "p_low": 0.2684,
+   "p_high": 0.7321
+  },
+  "T4": {
+   "obs": -5.963,
+   "boot_mean": 0.819,
+   "boot_sd": 60.337,
+   "p_two_sided": 0.9715,
+   "p_low": 0.4858,
+   "p_high": 0.5147
+  }
+ },
+ "D1_pass": true,
+ "D2_split_calibration": {
+  "T2": {
+   "obs": -160.186,
+   "Z": -1.89,
+   "boot_mean": -1.35,
+   "boot_sd": 86.886,
+   "p_two_sided": 0.056
+  },
+  "T3": {
+   "obs": -49.696,
+   "Z": -0.65,
+   "boot_mean": 1.594,
+   "boot_sd": 78.514,
+   "p_two_sided": 0.5047
+  },
+  "T4": {
+   "obs": -3.575,
+   "Z": -0.06,
+   "boot_mean": -0.702,
+   "boot_sd": 58.546,
+   "p_two_sided": 0.9775
+  },
+  "S_over_E": 0.9995
+ },
+ "D2_ratios_exploratory": {
+  "deterministic|det": 1.0,
+  "exact|(0.1,0.3]": 0.7362,
+  "exact|(0.3,0.5]": 0.9056,
+  "exact|(0.5,0.7]": 0.971,
+  "exact|(0.7,0.9]": 0.9884,
+  "exact|(0.9,1.0]": 1.0094,
+  "exact|P=0": 1.0,
+  "monte_carlo|(0.1,0.3]": 0.8772,
+  "monte_carlo|(0.3,0.5]": 0.8517,
+  "monte_carlo|(0.5,0.7]": 0.9897,
+  "monte_carlo|(0.7,0.9]": 1.0645,
+  "monte_carlo|(0.9,1.0]": 1.0241,
+  "monte_carlo|P=0": 1.0
+ },
+ "D2_ratios_confirmatory": {
+  "deterministic|det": 1.0,
+  "exact|(0.1,0.3]": 0.7313,
+  "exact|(0.3,0.5]": 0.9254,
+  "exact|(0.5,0.7]": 0.9354,
+  "exact|(0.7,0.9]": 0.9967,
+  "exact|(0.9,1.0]": 1.0078,
+  "exact|P=0": 1.0,
+  "monte_carlo|(0.0,0.1]": 15.5521,
+  "monte_carlo|(0.1,0.3]": 0.7685,
+  "monte_carlo|(0.3,0.5]": 0.9537,
+  "monte_carlo|(0.5,0.7]": 0.9614,
+  "monte_carlo|(0.7,0.9]": 1.0303,
+  "monte_carlo|(0.9,1.0]": 1.0094,
+  "monte_carlo|P=0": 1.0
+ },
+ "D2_pass": true,
+ "D3_fixed_vs_refit_null": {
+  "T2": {
+   "fixed_P_prime": {
+    "boot_mean": -1.623,
+    "boot_sd": 87.083,
+    "p_two_sided": 0.054
+   },
+   "refit": {
+    "boot_mean": -0.827,
+    "boot_sd": 84.602,
+    "p_two_sided": 0.048
+   }
+  },
+  "T3": {
+   "fixed_P_prime": {
+    "boot_mean": -0.919,
+    "boot_sd": 77.528,
+    "p_two_sided": 0.5157
+   },
+   "refit": {
+    "boot_mean": -3.647,
+    "boot_sd": 76.409,
+    "p_two_sided": 0.5367
+   }
+  },
+  "T4": {
+   "fixed_P_prime": {
+    "boot_mean": 0.201,
+    "boot_sd": 59.732,
+    "p_two_sided": 0.9455
+   },
+   "refit": {
+    "boot_mean": 0.819,
+    "boot_sd": 60.337,
+    "p_two_sided": 0.9715
+   }
+  }
+ },
+ "D3_toy_example": {
+  "E_refit": "-1/8",
+  "E_true_P": "0"
+ },
+ "D4_box_cells_refit_bootstrap": {
+  "cells": 25,
+  "S_over_E_fitted": 1.0,
+  "T2": {
+   "obs": -160.755,
+   "boot_mean": 0.111,
+   "boot_sd": 85.256,
+   "p_two_sided": 0.052,
+   "p_low": 0.026,
+   "p_high": 0.9745
+  },
+  "T3": {
+   "obs": -48.469,
+   "boot_mean": -0.802,
+   "boot_sd": 78.677,
+   "p_two_sided": 0.5417,
+   "p_low": 0.2709,
+   "p_high": 0.7296
+  },
+  "T4": {
+   "obs": -6.997,
+   "boot_mean": -0.269,
+   "boot_sd": 59.932,
+   "p_two_sided": 0.9315,
+   "p_low": 0.4658,
+   "p_high": 0.5347
+  }
+ },
+ "seconds": 250.2
+}
