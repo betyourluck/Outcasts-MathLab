@@ -1,0 +1,226 @@
+{
+ "contract": "Research/Simultaneity20261010/contract.md @ 5d4fc3a",
+ "input": {
+  "primes": 5840,
+  "first": 7000009,
+  "last": 9999889,
+  "budgets": [
+   23,
+   24
+  ]
+ },
+ "rows": 380592,
+ "direct_scan_checked_rows": 3884,
+ "t_rows": 13.1,
+ "S0": {
+  "primes_checked": 1736,
+  "mismatches": []
+ },
+ "S0_pass": true,
+ "analysis": {
+  "primes": 5840,
+  "FS_primes": 368,
+  "wider_rows": 351392,
+  "reps": 2000,
+  "seed": 20261020,
+  "OR_raw": 1.0314561329024878,
+  "OR_raw_ci95": [
+   0.9923892270383388,
+   1.0723005442419309
+  ],
+  "p_one_sided_raw_le_1": 0.05997001499250375,
+  "mod11": {
+   "OR": 0.9967867966395024,
+   "OR_ci95": [
+    0.9584719883045779,
+    1.0365580517135609
+   ],
+   "delta": 0.03418990192657773,
+   "delta_ci95": [
+    0.022451413813363595,
+    0.045170431552885006
+   ],
+   "p_one_sided_delta_le_0": 0.0004997501249375312
+  },
+  "mod13": {
+   "OR": 1.0233392069392133,
+   "OR_ci95": [
+    0.9838012609913331,
+    1.0647172288727975
+   ],
+   "delta": 0.007900512548478872,
+   "delta_ci95": [
+    -0.0006695025823491023,
+    0.016917244695698334
+   ],
+   "p_one_sided_delta_le_0": 0.03398300849575212
+  },
+  "mod17": {
+   "OR": 1.0251070778630051,
+   "OR_ci95": [
+    0.9849979226650236,
+    1.0654783512668715
+   ],
+   "delta": 0.0061744518010489816,
+   "delta_ci95": [
+    -0.0019344550811718508,
+    0.014265533277017448
+   ],
+   "p_one_sided_delta_le_0": 0.06846576711644178
+  },
+  "mod19": {
+   "OR": 1.0275115969506374,
+   "OR_ci95": [
+    0.988518355589903,
+    1.0694190459558524
+   ],
+   "delta": 0.003831571248492878,
+   "delta_ci95": [
+    -0.003964123169961671,
+    0.01161907434462826
+   ],
+   "p_one_sided_delta_le_0": 0.16891554222888555
+  },
+  "mod23": {
+   "OR": 1.0346896411137876,
+   "OR_ci95": [
+    0.993774725548002,
+    1.075710338725397
+   ],
+   "delta": -0.003129992948043562,
+   "delta_ci95": [
+    -0.010787360562364899,
+    0.004300252661278984
+   ],
+   "p_one_sided_delta_le_0": 0.7841079460269865
+  },
+  "specificity": {
+   "delta11_minus_max_control": 0.02628938937809886,
+   "ci95": [
+    0.011054249215821602,
+    0.03698011588818895
+   ],
+   "p_one_sided_le_0": 0.0004997501249375312
+  }
+ },
+ "S1_pass": true,
+ "S2_pass": true,
+ "S3_pass": true,
+ "S5_residue_table_mod11": {
+  "1": {
+   "primes": 588,
+   "FS_rate": 0.0731,
+   "wider_fail_rate": 0.8217,
+   "small_pairs_divisible_by_q": []
+  },
+  "2": {
+   "primes": 573,
+   "FS_rate": 0.0908,
+   "wider_fail_rate": 0.7904,
+   "small_pairs_divisible_by_q": []
+  },
+  "3": {
+   "primes": 587,
+   "FS_rate": 0.0647,
+   "wider_fail_rate": 0.8122,
+   "small_pairs_divisible_by_q": []
+  },
+  "4": {
+   "primes": 587,
+   "FS_rate": 0.0852,
+   "wider_fail_rate": 0.8166,
+   "small_pairs_divisible_by_q": []
+  },
+  "5": {
+   "primes": 581,
+   "FS_rate": 0.1033,
+   "wider_fail_rate": 0.8192,
+   "small_pairs_divisible_by_q": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "6": {
+   "primes": 587,
+   "FS_rate": 0.0988,
+   "wider_fail_rate": 0.7946,
+   "small_pairs_divisible_by_q": []
+  },
+  "7": {
+   "primes": 572,
+   "FS_rate": 0.0,
+   "wider_fail_rate": 0.8,
+   "small_pairs_divisible_by_q": [
+    [
+     3,
+     1
+    ]
+   ]
+  },
+  "8": {
+   "primes": 594,
+   "FS_rate": 0.0,
+   "wider_fail_rate": 0.797,
+   "small_pairs_divisible_by_q": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  "9": {
+   "primes": 601,
+   "FS_rate": 0.1115,
+   "wider_fail_rate": 0.8158,
+   "small_pairs_divisible_by_q": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "10": {
+   "primes": 570,
+   "FS_rate": 0.0,
+   "wider_fail_rate": 0.7834,
+   "small_pairs_divisible_by_q": [
+    [
+     1,
+     1
+    ]
+   ]
+  }
+ },
+ "S6_rescue": {
+  "FS_primes": 368,
+  "min_wider_successes": 3,
+  "mean_wider_successes_FS": 11.484,
+  "mean_wider_successes_other": 11.736,
+  "primes_without_any_witness": 0
+ },
+ "S7_single_exposure": {
+  "1,1": {
+   "raw": 1.0177,
+   "mod11": 0.979
+  },
+  "1,2": {
+   "raw": 1.0046,
+   "mod11": 1.001
+  },
+  "2,1": {
+   "raw": 0.9825,
+   "mod11": 0.9813
+  },
+  "1,3": {
+   "raw": 1.0569,
+   "mod11": 1.0528
+  },
+  "3,1": {
+   "raw": 1.029,
+   "mod11": 1.0261
+  }
+ },
+ "seconds": 157.8
+}
