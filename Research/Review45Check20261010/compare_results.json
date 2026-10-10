@@ -1,0 +1,18 @@
+{
+ "rows": {
+  "author": 61,
+  "same_pairs": true,
+  "mismatches": []
+ },
+ "fct_equal": true,
+ "p2521_d11_equal": true,
+ "small_shift_solution_equal": true,
+ "manifest": {
+  "files": 15,
+  "all_match": true
+ },
+ "sha256sums": {
+  "entries": 32,
+  "match": 32
+ }
+}
