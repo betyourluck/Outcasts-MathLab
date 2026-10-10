@@ -1,0 +1,19 @@
+{
+ "population": "primes p < 10^8 with p mod 840 in {1,121,169,289,361,529}",
+ "count": 179468,
+ "K_fail": [
+  8615161,
+  53722321
+ ],
+ "A_fail": [
+  8615161,
+  53722321
+ ],
+ "both_fail": [
+  8615161,
+  53722321
+ ],
+ "hlog_fail": [],
+ "false_positives": [],
+ "seconds": 1273.4
+}
