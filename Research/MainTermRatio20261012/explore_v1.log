@@ -1,0 +1,26 @@
+[6s] 23177 primes, budgets [22, 23, 24], published rows 1517553
+[50s] a=1 done, rows 547230
+[62s] a=2 done, rows 686292
+[73s] a=3 done, rows 816719
+[78s] a=4 done, rows 886250
+[86s] a=5 done, rows 978958
+[88s] a=6 done, rows 1002135
+[93s] a=7 done, rows 1071666
+[97s] a=8 done, rows 1109385
+[101s] a=9 done, rows 1155739
+[102s] a=10 done, rows 1178916
+[106s] a=11 done, rows 1225270
+[108s] a=12 done, rows 1248447
+[110s] a=13 done, rows 1271624
+[112s] a=14 done, rows 1294801
+[113s] a=15 done, rows 1317978
+[115s] a=16 done, rows 1341155
+[117s] a=17 done, rows 1364332
+[119s] a=18 done, rows 1387509
+[120s] a=19 done, rows 1410686
+[122s] a=20 done, rows 1433863
+[124s] a=21 done, rows 1457040
+[126s] a=22 done, rows 1480217
+[128s] a=23 done, rows 1503011
+[129s] a=24 done, rows 1517553
+EXIT 0
