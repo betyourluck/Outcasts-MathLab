@@ -1,0 +1,29 @@
+2026-10-12T00:26:57Z
+[1s] 5625 primes, budgets {'24': 1468, '25': 4157}
+[6s] a=1 done, rows 139157, direct checks 1411
+[7s] a=2 done, rows 172907, direct checks 1753
+[8s] a=3 done, rows 206657, direct checks 2063
+[9s] a=4 done, rows 223532, direct checks 2240
+[9s] a=5 done, rows 246032, direct checks 2484
+[10s] a=6 done, rows 251657, direct checks 2539
+[10s] a=7 done, rows 268532, direct checks 2725
+[11s] a=8 done, rows 279782, direct checks 2834
+[11s] a=9 done, rows 291032, direct checks 2933
+[11s] a=10 done, rows 296657, direct checks 2992
+[12s] a=11 done, rows 307907, direct checks 3093
+[12s] a=12 done, rows 313532, direct checks 3149
+[12s] a=13 done, rows 319157, direct checks 3194
+[12s] a=14 done, rows 324782, direct checks 3254
+[13s] a=15 done, rows 330407, direct checks 3309
+[13s] a=16 done, rows 336032, direct checks 3353
+[13s] a=17 done, rows 341657, direct checks 3432
+[13s] a=18 done, rows 347282, direct checks 3478
+[14s] a=19 done, rows 352907, direct checks 3526
+[14s] a=20 done, rows 358532, direct checks 3584
+[14s] a=21 done, rows 364157, direct checks 3637
+[15s] a=22 done, rows 369782, direct checks 3698
+[15s] a=23 done, rows 375407, direct checks 3749
+[15s] a=24 done, rows 381032, direct checks 3804
+[15s] a=25 done, rows 385189, direct checks 3843
+EXIT 0
+2026-10-12T00:27:13Z

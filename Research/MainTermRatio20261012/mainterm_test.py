@@ -9,8 +9,11 @@ from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE))
-import explore as ex  # noqa: E402  (witness_count, phi, quant; loads simultaneity_test as ex.st and n2)
+# Load ./explore.py under a distinct module name: it does `from explore import n2` itself (HardestPrimes20261010/explore.py),
+# so importing it as `explore` here made that line hit the half-initialised module (failed-run-1.log).
+import importlib.util  # noqa: E402
+_spec = importlib.util.spec_from_file_location("mainterm_explore", HERE / "explore.py")
+ex = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(ex)  # witness_count, phi, quant; ex.st = simultaneity_test, ex.n2
 st, n2 = ex.st, ex.n2
 
 SQ840 = {1, 121, 169, 289, 361, 529}

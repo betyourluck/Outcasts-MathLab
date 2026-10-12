@@ -1,0 +1,11 @@
+2026-10-12T00:25:48Z
+Traceback (most recent call last):
+  File "D:\Github\Outcasts-MathLab\Research\MainTermRatio20261012\mainterm_test.py", line 13, in <module>
+    import explore as ex  # noqa: E402  (witness_count, phi, quant; loads simultaneity_test as ex.st and n2)
+    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Github\Outcasts-MathLab\Research\MainTermRatio20261012\explore.py", line 18, in <module>
+    from explore import n2  # noqa: E402  (least prime quadratic non-residue, HardestPrimes20261010/explore.py)
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'n2' from partially initialized module 'explore' (most likely due to a circular import) (D:\Github\Outcasts-MathLab\Research\MainTermRatio20261012\explore.py). Did you mean: 'np'?
+EXIT 1
+2026-10-12T00:25:48Z
