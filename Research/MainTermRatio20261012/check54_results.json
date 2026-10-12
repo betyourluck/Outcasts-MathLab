@@ -1,0 +1,67 @@
+{
+ "1201": {
+  "B": 11,
+  "pairs": 25,
+  "M": "65/4",
+  "R": "59/4",
+  "M_minus_R": "3/2",
+  "W_tot": 4,
+  "E_plus": "5/4",
+  "E_minus": "27/2",
+  "T_chi": "93/10",
+  "M_minus_Tchi": "139/20",
+  "identity_M_minus_R_eq_W_minus_2Eplus": true
+ },
+ "2521": {
+  "B": 12,
+  "pairs": 29,
+  "M": "517/30",
+  "R": "487/30",
+  "M_minus_R": "1",
+  "W_tot": 2,
+  "E_plus": "1/2",
+  "E_minus": "236/15",
+  "T_chi": "341/30",
+  "M_minus_Tchi": "88/15",
+  "identity_M_minus_R_eq_W_minus_2Eplus": true
+ },
+ "66529": {
+  "B": 17,
+  "pairs": 43,
+  "M": "5717/240",
+  "R": "5717/240",
+  "M_minus_R": "0",
+  "W_tot": 4,
+  "E_plus": "2",
+  "E_minus": "5237/240",
+  "T_chi": "4067/240",
+  "M_minus_Tchi": "55/8",
+  "identity_M_minus_R_eq_W_minus_2Eplus": true
+ },
+ "8615161": {
+  "B": 24,
+  "pairs": 67,
+  "M": "41491/990",
+  "R": "35287/990",
+  "M_minus_R": "94/15",
+  "W_tot": 14,
+  "E_plus": "58/15",
+  "E_minus": "31459/990",
+  "T_chi": "28211/1320",
+  "M_minus_Tchi": "81331/3960",
+  "identity_M_minus_R_eq_W_minus_2Eplus": true
+ },
+ "53722321": {
+  "B": 26,
+  "pairs": 73,
+  "M": "32069/720",
+  "R": "29909/720",
+  "M_minus_R": "3",
+  "W_tot": 8,
+  "E_plus": "5/2",
+  "E_minus": "28109/720",
+  "T_chi": "4735/144",
+  "M_minus_Tchi": "1399/120",
+  "identity_M_minus_R_eq_W_minus_2Eplus": true
+ }
+}
