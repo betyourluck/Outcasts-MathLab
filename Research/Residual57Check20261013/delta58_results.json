@@ -1,0 +1,44 @@
+{
+ "66529": {
+  "rows": 43,
+  "sum_delta58": "328/15",
+  "rows_with_positive_delta58": 10,
+  "nonconstant_complex_pairs_total": 56,
+  "max_delta58": [
+   "4",
+   [
+    17,
+    1
+   ]
+  ],
+  "identity_V_minus_K_eq_min_V_Wminusdelta_fails": 0,
+  "rows_with_W_gt_delta58": 3
+ },
+ "18490201": {
+  "rows": 69,
+  "sum_delta58": "85417/1980",
+  "rows_with_positive_delta58": 20,
+  "nonconstant_complex_pairs_total": 186,
+  "max_delta58": [
+   "56/9",
+   [
+    1,
+    19
+   ]
+  ],
+  "identity_V_minus_K_eq_min_V_Wminusdelta_fails": 0,
+  "rows_with_W_gt_delta58": 2
+ },
+ "1201": {
+  "rows": 1,
+  "sum_delta58": "0",
+  "rows_with_positive_delta58": 0,
+  "nonconstant_complex_pairs_total": 0,
+  "max_delta58": [
+   "0",
+   null
+  ],
+  "identity_V_minus_K_eq_min_V_Wminusdelta_fails": 0,
+  "rows_with_W_gt_delta58": 0
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "contract": "contract.md",
+ "boxes": [
+  {
+   "p": 66529,
+   "B": 17,
+   "pairs": 43,
+   "pairs_theirs": 43,
+   "sums": {
+    "U": {
+     "mine": "5717/240",
+     "theirs": "5717/240",
+     "match": true
+    },
+    "t": {
+     "mine": "4067/240",
+     "theirs": "4067/240",
+     "match": true
+    },
+    "V": {
+     "mine": "55/8",
+     "theirs": "55/8",
+     "match": true
+    },
+    "W": {
+     "mine": "4",
+     "theirs": "4",
+     "match": true
+    },
+    "rest": {
+     "mine": "39/8",
+     "theirs": "39/8",
+     "match": true
+    },
+    "delta": {
+     "mine": "0",
+     "theirs": "0",
+     "match": true
+    },
+    "factor_only_K": {
+     "mine": "39/8",
+     "theirs": "39/8",
+     "match": true
+    },
+    "factor_only_W_lower": {
+     "mine": "4",
+     "theirs": "4",
+     "match": true
+    },
+    "other_even_real": {
+     "mine": "241/48",
+     "theirs": "241/48",
+     "match": true
+    },
+    "other_odd_real": {
+     "mine": "319/48",
+     "theirs": "319/48",
+     "match": true
+    },
+    "signed_complex": {
+     "mine": "-5/4",
+     "theirs": "-5/4",
+     "match": true
+    }
+   },
+   "certificate_lower_sumV_minus_sumK": "2",
+   "sum_other_real_signed": "-13/8",
+   "positive_certificate_pairs": [
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     14
+    ]
+   ],
+   "positive_certificate_pairs_theirs": [
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     14
+    ]
+   ],
+   "positive_certificate_pairs_match": true,
+   "all_sums_match": true
+  },
+  {
+   "p": 18490201,
+   "B": 25,
+   "pairs": 69,
+   "pairs_theirs": 69,
+   "sums": {
+    "U": {
+     "mine": "100157/2640",
+     "theirs": "100157/2640",
+     "match": true
+    },
+    "t": {
+     "mine": "5001/176",
+     "theirs": "5001/176",
+     "match": true
+    },
+    "V": {
+     "mine": "12571/1320",
+     "theirs": "12571/1320",
+     "match": true
+    },
+    "W": {
+     "mine": "3",
+     "theirs": "3",
+     "match": true
+    },
+    "rest": {
+     "mine": "3831/440",
+     "theirs": "3831/440",
+     "match": true
+    },
+    "delta": {
+     "mine": "1/12",
+     "theirs": "1/12",
+     "match": true
+    },
+    "factor_only_K": {
+     "mine": "4007/440",
+     "theirs": "4007/440",
+     "match": true
+    },
+    "factor_only_W_lower": {
+     "mine": "2",
+     "theirs": "2",
+     "match": true
+    },
+    "other_even_real": {
+     "mine": "10141/2640",
+     "theirs": "10141/2640",
+     "match": true
+    },
+    "other_odd_real": {
+     "mine": "15839/2640",
+     "theirs": "15839/2640",
+     "match": true
+    },
+    "signed_complex": {
+     "mine": "-2881/660",
+     "theirs": "-2881/660",
+     "match": true
+    }
+   },
+   "certificate_lower_sumV_minus_sumK": "5/12",
+   "sum_other_real_signed": "-259/120",
+   "positive_certificate_pairs": [
+    [
+     2,
+     9
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   "positive_certificate_pairs_theirs": [
+    [
+     2,
+     9
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   "positive_certificate_pairs_match": true,
+   "all_sums_match": true
+  }
+ ],
+ "row_matches": {
+  "66529": {
+   "rows": 43,
+   "all_fields_match": true
+  },
+  "18490201": {
+   "rows": 69,
+   "all_fields_match": true
+  }
+ },
+ "mismatches": [],
+ "row_18490201_1_14": {
+  "tau": 32,
+  "phi": 24,
+  "U": "4/3",
+  "t": "0",
+  "W": 0,
+  "r": "4/3",
+  "real_nonprincipal_zero": 7,
+  "complex_pair_numerators_sorted": [
+   -18,
+   -18,
+   -2,
+   0,
+   0,
+   0,
+   0,
+   6
+  ],
+  "complex_pairs_nonconstant": 0,
+  "C": "-4/3",
+  "thread_claim_multiset": [
+   -18,
+   -18,
+   -2,
+   0,
+   0,
+   0,
+   0,
+   6
+  ],
+  "match_thread": true,
+  "match_their_rows": true
+ },
+ "row_1201_3_1": {
+  "U": "1",
+  "t": "0",
+  "V": "1",
+  "W": "0",
+  "rest": "1",
+  "delta": "0",
+  "factor_only_K": "1",
+  "factor_only_W_lower": "0",
+  "other_even_real": "0",
+  "other_odd_real": "1",
+  "signed_complex": "0",
+  "match": true
+ },
+ "thread_table_match": {
+  "66529": {
+   "sumV": true,
+   "sum_r": true,
+   "sumK": true,
+   "lower": true,
+   "Wtot": true,
+   "A_minus_B": true,
+   "complex_signed": true
+  },
+  "18490201": {
+   "sumV": true,
+   "sum_r": true,
+   "sumK": true,
+   "lower": true,
+   "Wtot": true,
+   "A_minus_B": true,
+   "complex_signed": true
+  }
+ },
+ "seconds": 1.7
+}

@@ -1,0 +1,71 @@
+{
+ "source_commit": "b84bbb75cb437b93f52d505a42a5a73ba566e9f2",
+ "source_sha256": "ee70099355f8b263e4f5795406afe6da7371d6ff2344c4a35a64c6b6644015ad",
+ "source_sha256_matches_readme": true,
+ "source_has_crlf": false,
+ "lean_version": "Lean (version 4.34.0, x86_64-w64-windows-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+ "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+ "command": "lake env lean -j 1 --root=<dir> -o <dir>/ResidualAccounting20261013.olean <dir>/ResidualAccounting20261013.lean (LEAN_NUM_THREADS=1, standalone compile in this checkout, not lake build)",
+ "exit_code": 0,
+ "seconds_wall": 12,
+ "first_run_seconds_wall_approx": 120,
+ "theorems": 10,
+ "axioms": {
+  "ResidualAccounting20261013.residual_positive_part": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.leftover_nonnegative": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.residual_bound": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.corrected_identity": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.valid_lower_bound": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.certificate_upper": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.sharp_scalar_bound": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.fixed_box_missing_term": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.fixed_box_wrong_identity": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ],
+  "ResidualAccounting20261013.fixed_box_certificate_positive": [
+   "propext",
+   "Classical.choice",
+   "Quot.sound"
+  ]
+ },
+ "standard_axioms_only": true,
+ "errors_or_warnings_in_log": false,
+ "log_sha256": "a8c76bca08a26c116c009ec264a7fb2d65c25808e57bb0497e90b68ae60705c1",
+ "log_identical_to_theirs": true,
+ "no_sorry_admit_native_decide": true,
+ "full_project_build": false
+}
