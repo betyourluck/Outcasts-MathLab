@@ -1,0 +1,30 @@
+{
+ "source_commit": "4e514acf287ac0a455768fd3812b347e1d90f3e2",
+ "source_path": "Research/CertificateSlack20261014/CertificateSlack20261014.lean",
+ "source_sha256": "3179b40123d49452e7d59c2042dc0bed777428d33be009449708501c74619e4b",
+ "source_sha256_matches_manifest": true,
+ "source_has_crlf": false,
+ "no_sorry_admit_native_decide": true,
+ "lean_version": "Lean (version 4.34.0, x86_64-w64-windows-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+ "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+ "command": "LEAN_NUM_THREADS=1 lake env lean -j 1 --root=<dir> -o <dir>/CertificateSlack20261014.olean <dir>/CertificateSlack20261014.lean (standalone compile in this checkout, not lake build; the .olean is not committed)",
+ "exit_code": 0,
+ "seconds_wall": 87,
+ "theorems": 6,
+ "axioms": {
+  "CertificateSlack20261014.slack_identity": ["propext", "Classical.choice", "Quot.sound"],
+  "CertificateSlack20261014.positive_criterion": ["propext", "Classical.choice", "Quot.sound"],
+  "CertificateSlack20261014.exact_gap": ["propext", "Classical.choice", "Quot.sound"],
+  "CertificateSlack20261014.compatible_v_positive": ["propext", "Classical.choice", "Quot.sound"],
+  "CertificateSlack20261014.exact_positive_iff": ["propext", "Classical.choice", "Quot.sound"],
+  "CertificateSlack20261014.scalar_compatibility_needed": ["propext", "Classical.choice", "Quot.sound"]
+ },
+ "standard_axioms_only": true,
+ "errors_or_warnings_in_log": false,
+ "log_file": "CertificateSlack20261014.luna.log",
+ "log_sha256": "6642349f5cbe7c349b4581b906f93302349ad6155d79fe5309f2b0e3ba51a852",
+ "their_log_file": "CertificateSlack20261014.theirs.log (blob of 4e514ac)",
+ "log_identical_to_theirs": true,
+ "full_project_build": false,
+ "ci": false
+}
