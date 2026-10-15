@@ -1,0 +1,22 @@
+{
+ "source_commit": "ddf90669053bf847fd97a2b27376e35a24c0a83c",
+ "source_path": "Research/SquareCoset20261015/OddSquareLift20261015.lean",
+ "source_sha256": "92a507819ccb77c8d9d0736d2261c7e739a84237231dfd775a42898bebd18a46",
+ "source_sha256_matches_manifest": true,
+ "no_sorry_admit_native_decide": true,
+ "lean_version": "Lean (version 4.34.0, x86_64-w64-windows-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+ "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+ "command": "LEAN_NUM_THREADS=1 lake env lean -j 1 --root=<dir> -o <dir>/OddSquareLift20261015.olean <dir>/OddSquareLift20261015.lean (standalone compile, not lake build; .olean not committed)",
+ "exit_code": 0,
+ "seconds_wall": 150,
+ "theorems": 6,
+ "axioms_all": ["propext"],
+ "standard_axioms_only": true,
+ "errors_or_warnings_in_log": false,
+ "log_file": "OddSquareLift20261015.luna.log",
+ "log_sha256": "548f5b3c383d42a75ce19a4d8fecc6c07732beb76a51795bf57e05809ba55678",
+ "log_identical_to_theirs": true,
+ "note": "The 4 group theorems take the odd exponent as an explicit hypothesis (h^(2k+1) = 1); the Lagrange step from odd |H| is on paper, as the participant states. Numeric: 665291 = 11*31*1951; 83^3 mod 36 = 35 and 83^3 does not divide 598762.",
+ "full_project_build": false,
+ "ci": false
+}

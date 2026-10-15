@@ -1,0 +1,327 @@
+{
+ "basis": "check60_rows.json (610 rows computed under contract.md); K = <odd prime factors of N> added here",
+ "failure_split": {
+  "total": 566,
+  "quadratic_W_H_zero": 458,
+  "W_H_pos_minus1_not_in_K": 7,
+  "W_H_pos_minus1_in_K_W_zero": 101,
+  "claim": [
+   566,
+   458,
+   7,
+   101
+  ],
+  "match": true
+ },
+ "group_obstruction_rows": [
+  {
+   "p": 8615161,
+   "a": 3,
+   "u": 4,
+   "m": 48,
+   "H_size": 2,
+   "W_G2": 1,
+   "K": [
+    1,
+    23,
+    31,
+    41
+   ]
+  },
+  {
+   "p": 3678481,
+   "a": 1,
+   "u": 10,
+   "m": 40,
+   "H_size": 2,
+   "W_G2": 1,
+   "K": [
+    1,
+    11,
+    21,
+    31
+   ]
+  },
+  {
+   "p": 3678481,
+   "a": 5,
+   "u": 3,
+   "m": 60,
+   "H_size": 2,
+   "W_G2": 1,
+   "K": [
+    1,
+    11,
+    31,
+    41
+   ]
+  },
+  {
+   "p": 5843041,
+   "a": 5,
+   "u": 3,
+   "m": 60,
+   "H_size": 2,
+   "W_G2": 2,
+   "K": [
+    1,
+    11
+   ]
+  },
+  {
+   "p": 66529,
+   "a": 10,
+   "u": 1,
+   "m": 40,
+   "H_size": 2,
+   "W_G2": 2,
+   "K": [
+    1,
+    11,
+    21,
+    31
+   ]
+  },
+  {
+   "p": 18490201,
+   "a": 1,
+   "u": 13,
+   "m": 52,
+   "H_size": 6,
+   "W_G2": 1,
+   "K": [
+    1,
+    27
+   ]
+  },
+  {
+   "p": 18490201,
+   "a": 4,
+   "u": 5,
+   "m": 80,
+   "H_size": 4,
+   "W_G2": 2,
+   "K": [
+    1,
+    3,
+    9,
+    13,
+    27,
+    31,
+    37,
+    39
+   ]
+  }
+ ],
+ "per_prime_second_stage": {
+  "66529": {
+   "mine": [
+    1,
+    6
+   ],
+   "claim": [
+    1,
+    6
+   ],
+   "match": true
+  },
+  "345601": {
+   "mine": [
+    0,
+    9
+   ],
+   "claim": [
+    0,
+    9
+   ],
+   "match": true
+  },
+  "670849": {
+   "mine": [
+    0,
+    10
+   ],
+   "claim": [
+    0,
+    10
+   ],
+   "match": true
+  },
+  "1740481": {
+   "mine": [
+    0,
+    11
+   ],
+   "claim": [
+    0,
+    11
+   ],
+   "match": true
+  },
+  "3678481": {
+   "mine": [
+    2,
+    8
+   ],
+   "claim": [
+    2,
+    8
+   ],
+   "match": true
+  },
+  "5843041": {
+   "mine": [
+    1,
+    11
+   ],
+   "claim": [
+    1,
+    11
+   ],
+   "match": true
+  },
+  "8615161": {
+   "mine": [
+    1,
+    13
+   ],
+   "claim": [
+    1,
+    13
+   ],
+   "match": true
+  },
+  "18490201": {
+   "mine": [
+    2,
+    11
+   ],
+   "claim": [
+    2,
+    11
+   ],
+   "match": true
+  },
+  "53722321": {
+   "mine": [
+    0,
+    9
+   ],
+   "claim": [
+    0,
+    9
+   ],
+   "match": true
+  },
+  "84525841": {
+   "mine": [
+    0,
+    13
+   ],
+   "claim": [
+    0,
+    13
+   ],
+   "match": true
+  }
+ },
+ "per_prime_all_match": true,
+ "odd_H_lemma": {
+  "odd_H_rows": 308,
+  "violations_W_H_pos_but_minus1_not_in_K": 0,
+  "odd_H_second_stage_failures": 53,
+  "all_of_them_have_minus1_in_K": true,
+  "claim_second_stage_failures": 53
+ },
+ "uniform_coset_lemma": {
+  "uniform_failures": 81,
+  "all_KH_eq_G": true,
+  "all_minus1_in_K": true,
+  "claim": 81
+ },
+ "KH_eq_G_rows": {
+  "count": 125,
+  "claim": 125,
+  "implies_minus1_in_K_on_all_rows": true
+ },
+ "group_obstruction_rows_all_even_H": true,
+ "example_66529_10_1": {
+  "factors": {
+   "11": 1,
+   "31": 1,
+   "1951": 1
+  },
+  "m": 40,
+  "H_size": 2,
+  "W_G2": 2,
+  "K": [
+   1,
+   11,
+   21,
+   31
+  ],
+  "minus1_in_K": false,
+  "R": "1",
+  "C": "-1",
+  "W": 0,
+  "claim_match": true
+ },
+ "example_66529_9_1": {
+  "factors": {
+   "2": 1,
+   "83": 1,
+   "3607": 1
+  },
+  "m": 36,
+  "H_size": 3,
+  "W_G2": 1,
+  "W": 0,
+  "minus1_in_K": true,
+  "pow_83_3_mod_36": 35,
+  "83_cubed_divides_N": false,
+  "claim_match": true
+ },
+ "refutation_5843041": {
+  "pairs": 63,
+  "odd_H_pairs": 35,
+  "odd_H_pairs_all_W_zero": true,
+  "successes": [
+   {
+    "a": 1,
+    "u": 5,
+    "H_size": 2,
+    "witnesses": [
+     7359
+    ]
+   },
+   {
+    "a": 1,
+    "u": 17,
+    "H_size": 8,
+    "witnesses": [
+     127023
+    ]
+   },
+   {
+    "a": 5,
+    "u": 1,
+    "H_size": 2,
+    "witnesses": [
+     279,
+     11439
+    ]
+   }
+  ],
+  "claim_match": true
+ },
+ "control_m20_N11": {
+  "minus_H": [
+   11,
+   19
+  ],
+  "K": [
+   1,
+   11
+  ]
+ }
+}
