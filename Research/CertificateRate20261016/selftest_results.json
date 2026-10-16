@@ -1,0 +1,32 @@
+{
+ "mode": "selftest",
+ "inputs": [
+  66529,
+  345601,
+  670849,
+  1740481,
+  3678481,
+  5843041,
+  8615161,
+  18490201,
+  53722321,
+  84525841
+ ],
+ "box_mismatches": [],
+ "failure_split": [
+  566,
+  458,
+  7,
+  101
+ ],
+ "failure_split_ref62": [
+  566,
+  458,
+  7,
+  101
+ ],
+ "second_stage_uniform": 81,
+ "second_stage_uniform_ref62": 81,
+ "seconds": 4.6,
+ "all_match": true
+}
