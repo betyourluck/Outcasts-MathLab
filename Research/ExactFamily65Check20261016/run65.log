@@ -1,0 +1,745 @@
+{
+ "part1_E": {
+  "lambda_two_ways_agree_up_to": 5000,
+  "E_scan": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10,
+   12,
+   14,
+   15,
+   18,
+   20,
+   21,
+   30,
+   42,
+   60,
+   63,
+   126
+  ],
+  "E_divisors_60_or_126": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10,
+   12,
+   14,
+   15,
+   18,
+   20,
+   21,
+   30,
+   42,
+   60,
+   63,
+   126
+  ],
+  "E_scan_equals_divisors": true,
+  "E_size": 20,
+  "lambda_div4_iff_4k_div240": true,
+  "lambda_div6_iff_4k_div504": true,
+  "div60_structure": true,
+  "div126_structure": true,
+  "E_pairs": 81,
+  "sum_2_pow_omega": 81,
+  "their_lambda_checks": {
+   "rows": 126,
+   "k_range": [
+    1,
+    126
+   ],
+   "mismatches": []
+  }
+ },
+ "part2_log_rows": {
+  "rows": 610,
+  "vs_saved_20261015": {
+   "rows": 610,
+   "fields": [
+    "W",
+    "eta",
+    "C",
+    "ell_sum",
+    "V",
+    "L",
+    "lower",
+    "K",
+    "b"
+   ],
+   "mismatches": []
+  },
+  "vs_their_log_rows": {
+   "rows": 610,
+   "fields": 7,
+   "mismatches": []
+  },
+  "vs_their_baseline_rows": {
+   "rows": 610,
+   "fields": [
+    "W",
+    "V",
+    "signed_complex",
+    "complex_triangle_lower",
+    "factor_only_W_lower"
+   ],
+   "mismatches": []
+  },
+  "positive_rows": 33,
+  "positive_eta_zero": 32,
+  "positive_forced_E": 31,
+  "positive_outside_E_eta_zero": [
+   {
+    "p": 1740481,
+    "a": 1,
+    "u": 13,
+    "m": 52,
+    "L": 12,
+    "W": 1,
+    "eta": "0",
+    "c": "1",
+    "forced_E": false,
+    "all_pairs_constant": true
+   }
+  ],
+  "positive_eta_nonzero": [
+   {
+    "p": 53722321,
+    "a": 13,
+    "u": 1,
+    "m": 52,
+    "L": 12,
+    "W": 1,
+    "eta": "5/6",
+    "c": "1/6",
+    "forced_E": false,
+    "all_pairs_constant": false
+   }
+  ],
+  "E_rows": 426,
+  "E_success_rows": 31,
+  "outside_E_rows": 184,
+  "outside_E_eta_zero_rows": 24,
+  "successful_rows": 44,
+  "successful_rows_eta_positive": 12,
+  "boxes": [
+   {
+    "p": 66529,
+    "B": 17,
+    "pairs": 43,
+    "Wtot": 4,
+    "positive_rows": 3,
+    "positive_eta_zero": 3,
+    "E_pairs": 33,
+    "E_Wtot": 4,
+    "outside_E_zero_eta_rows": 0,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "4",
+    "Cert0": "4",
+    "Certplus": "0",
+    "eta_positive_rows": 10,
+    "eta_sum": "328/15"
+   },
+   {
+    "p": 345601,
+    "B": 19,
+    "pairs": 49,
+    "Wtot": 5,
+    "positive_rows": 3,
+    "positive_eta_zero": 3,
+    "E_pairs": 37,
+    "E_Wtot": 4,
+    "outside_E_zero_eta_rows": 1,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "4",
+    "Cert0": "4",
+    "Certplus": "0",
+    "eta_positive_rows": 11,
+    "eta_sum": "2603/90"
+   },
+   {
+    "p": 670849,
+    "B": 20,
+    "pairs": 53,
+    "Wtot": 4,
+    "positive_rows": 1,
+    "positive_eta_zero": 1,
+    "E_pairs": 41,
+    "E_Wtot": 1,
+    "outside_E_zero_eta_rows": 0,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "1",
+    "Cert0": "1",
+    "Certplus": "0",
+    "eta_positive_rows": 12,
+    "eta_sum": "857/30"
+   },
+   {
+    "p": 1740481,
+    "B": 21,
+    "pairs": 57,
+    "Wtot": 6,
+    "positive_rows": 4,
+    "positive_eta_zero": 4,
+    "E_pairs": 45,
+    "E_Wtot": 5,
+    "outside_E_zero_eta_rows": 2,
+    "outside_E_zero_eta_Wtot": 1,
+    "Cert": "6",
+    "Cert0": "6",
+    "Certplus": "0",
+    "eta_positive_rows": 10,
+    "eta_sum": "99/5"
+   },
+   {
+    "p": 3678481,
+    "B": 22,
+    "pairs": 61,
+    "Wtot": 7,
+    "positive_rows": 5,
+    "positive_eta_zero": 5,
+    "E_pairs": 45,
+    "E_Wtot": 7,
+    "outside_E_zero_eta_rows": 3,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "7",
+    "Cert0": "7",
+    "Certplus": "0",
+    "eta_positive_rows": 13,
+    "eta_sum": "1427/45"
+   },
+   {
+    "p": 5843041,
+    "B": 23,
+    "pairs": 63,
+    "Wtot": 4,
+    "positive_rows": 2,
+    "positive_eta_zero": 2,
+    "E_pairs": 45,
+    "E_Wtot": 3,
+    "outside_E_zero_eta_rows": 3,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "3",
+    "Cert0": "3",
+    "Certplus": "0",
+    "eta_positive_rows": 15,
+    "eta_sum": "37627/990"
+   },
+   {
+    "p": 8615161,
+    "B": 24,
+    "pairs": 67,
+    "Wtot": 14,
+    "positive_rows": 7,
+    "positive_eta_zero": 7,
+    "E_pairs": 45,
+    "E_Wtot": 10,
+    "outside_E_zero_eta_rows": 4,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "10",
+    "Cert0": "10",
+    "Certplus": "0",
+    "eta_positive_rows": 18,
+    "eta_sum": "19379/495"
+   },
+   {
+    "p": 18490201,
+    "B": 25,
+    "pairs": 69,
+    "Wtot": 3,
+    "positive_rows": 2,
+    "positive_eta_zero": 2,
+    "E_pairs": 45,
+    "E_Wtot": 2,
+    "outside_E_zero_eta_rows": 4,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "2",
+    "Cert0": "2",
+    "Certplus": "0",
+    "eta_positive_rows": 20,
+    "eta_sum": "85417/1980"
+   },
+   {
+    "p": 53722321,
+    "B": 26,
+    "pairs": 73,
+    "Wtot": 8,
+    "positive_rows": 4,
+    "positive_eta_zero": 3,
+    "E_pairs": 45,
+    "E_Wtot": 3,
+    "outside_E_zero_eta_rows": 4,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "19/6",
+    "Cert0": "3",
+    "Certplus": "1/6",
+    "eta_positive_rows": 24,
+    "eta_sum": "20389/396"
+   },
+   {
+    "p": 84525841,
+    "B": 27,
+    "pairs": 75,
+    "Wtot": 3,
+    "positive_rows": 2,
+    "positive_eta_zero": 2,
+    "E_pairs": 45,
+    "E_Wtot": 2,
+    "outside_E_zero_eta_rows": 3,
+    "outside_E_zero_eta_Wtot": 0,
+    "Cert": "2",
+    "Cert0": "2",
+    "Certplus": "0",
+    "eta_positive_rows": 27,
+    "eta_sum": "57163/990"
+   }
+  ],
+  "every_box_has_E_witness_in_budget": true,
+  "vs_their_box_summary": {
+   "items": 130,
+   "mismatches": []
+  },
+  "vs_their_totals": {
+   "positive_rows": true,
+   "positive_eta_zero": true,
+   "E_rows": true,
+   "E_success_rows": true,
+   "positive_eta_nonzero": true,
+   "outside_E_eta_zero_successes": true
+  }
+ },
+ "part3_E_rows": {
+  "rows": 810,
+  "all_eta_zero_all_pairs_constant": true,
+  "vs_their_extended_rows": {
+   "rows": 810,
+   "fields": [
+    "k",
+    "N",
+    "m",
+    "L",
+    "factors",
+    "W",
+    "witnesses",
+    "within_log_budget"
+   ],
+   "mismatches": []
+  },
+  "complex_pairs_checked": 12400,
+  "per_prime": [
+   {
+    "p": 66529,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      9
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      9
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "W_E_total": 4,
+    "W_E_log": 4
+   },
+   {
+    "p": 345601,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      9
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      10,
+      3
+     ],
+     [
+      14,
+      3
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      9
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      7,
+      2
+     ]
+    ],
+    "W_E_total": 6,
+    "W_E_log": 4
+   },
+   {
+    "p": 670849,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      10,
+      1
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      10,
+      1
+     ]
+    ],
+    "W_E_total": 1,
+    "W_E_log": 1
+   },
+   {
+    "p": 1740481,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      21
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      30,
+      1
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      21
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "W_E_total": 6,
+    "W_E_log": 5
+   },
+   {
+    "p": 3678481,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      6,
+      1
+     ]
+    ],
+    "W_E_total": 7,
+    "W_E_log": 7
+   },
+   {
+    "p": 5843041,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      5
+     ],
+     [
+      3,
+      14
+     ],
+     [
+      5,
+      1
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      5
+     ],
+     [
+      5,
+      1
+     ]
+    ],
+    "W_E_total": 4,
+    "W_E_log": 3
+   },
+   {
+    "p": 8615161,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      14
+     ],
+     [
+      1,
+      18
+     ],
+     [
+      1,
+      20
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      9,
+      1
+     ],
+     [
+      10,
+      3
+     ],
+     [
+      21,
+      1
+     ],
+     [
+      21,
+      2
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      14
+     ],
+     [
+      1,
+      18
+     ],
+     [
+      1,
+      20
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      9,
+      1
+     ],
+     [
+      21,
+      1
+     ]
+    ],
+    "W_E_total": 12,
+    "W_E_log": 10
+   },
+   {
+    "p": 18490201,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      2,
+      9
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      2,
+      9
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "W_E_total": 2,
+    "W_E_log": 2
+   },
+   {
+    "p": 53722321,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      1,
+      10
+     ],
+     [
+      1,
+      14
+     ],
+     [
+      10,
+      1
+     ],
+     [
+      15,
+      2
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      1,
+      10
+     ],
+     [
+      1,
+      14
+     ],
+     [
+      10,
+      1
+     ]
+    ],
+    "W_E_total": 4,
+    "W_E_log": 3
+   },
+   {
+    "p": 84525841,
+    "pairs": 81,
+    "success_pairs": [
+     [
+      3,
+      14
+     ],
+     [
+      20,
+      1
+     ],
+     [
+      21,
+      1
+     ],
+     [
+      30,
+      1
+     ]
+    ],
+    "success_pairs_in_log_budget": [
+     [
+      20,
+      1
+     ],
+     [
+      21,
+      1
+     ]
+    ],
+    "W_E_total": 7,
+    "W_E_log": 2
+   }
+  ],
+  "H_Elog_all_pass": true,
+  "H_E_all_pass": true,
+  "vs_their_full_E_summary": {
+   "primes": 10,
+   "mismatches": []
+  },
+  "their_H_Elog": {
+   "status": "Unproved; all10 fixed discovery inputs pass",
+   "counterexample_inputs": []
+  },
+  "their_H_E": {
+   "status": "Unproved; all10 fixed discovery inputs pass",
+   "counterexample_inputs": []
+  }
+ },
+ "seconds": {
+  "part1": 22.2,
+  "part1_2": 38.9,
+  "total": 57.0
+ }
+}
