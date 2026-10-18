@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\Github\Outcasts-MathLab\Research\Layers76Check20261018\check76.py", line 158, in <module>
+    assert not (Sp & Sm) and len(Sp) == len(Sm) == len(divs) // 2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+EXIT 1

@@ -155,7 +155,7 @@ for r in rows:
     assert sorted({d % c for d, _ in divs}) == r['S']
     Sp = {d % c for d, cd in divs if cd == 1}
     Sm = {d % c for d, cd in divs if cd == -1}
-    assert not (Sp & Sm) and len(Sp) == len(Sm) == len(divs) // 2
+    assert not (Sp & Sm) and len(Sp) == len(Sm) and len(Sp) + len(Sm) == len(r['S'])   # residues mod c; divisors may collide mod c
     assert Sm == {x * pow(s, -1, c) % c for s in Sp}
     sq = sg * q
     # psi(d) = chi(d) on divisors; psi(-1) = -1 since -sigma q < 0 and -sigma q = 1 mod 4; psi(-p) = +1
