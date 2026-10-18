@@ -1,0 +1,4 @@
+1. 3391 candidates, 9441 factor checks (1787 with r=2), violations 0; canonical 230: II-fail 179 (all group-pass), I-group-obstruction 6, (group I <=> 2 in K) on all; mismatches 0; script sha ok=True
+2. corollary finite parts: ell >= 11 and ell <= ceil(sqrt p) for 12 primes; roots 0/2 paired, no fixed point; pair prefix error < 1; inclusion-exclusion bound and Z > 0 for n = 1..5; (1+2n/11)3^n <= 4^n for n <= 200
+done: mismatches 0, 24.1 s
+EXIT 0
