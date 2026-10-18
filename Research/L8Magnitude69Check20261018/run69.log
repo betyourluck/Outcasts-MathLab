@@ -1,0 +1,17 @@
+0. lambda(4k)=8 <=> k in {8,24,40,120} (k<=5000); 18 L8 pairs, 81 E pairs, disjoint, union 99
+2a. 38296729 box: 73 pairs, W>0 at [(1, 25), (3, 8), (8, 1), (11, 1)], Cert0=0 Cert+=1 E_log=0; mismatches 0
+2a. 38296729 E: 81 pairs, layers {1: 9, 2: 36, 3: 36}, E_all=1 at (14,9) s=544319; mismatches 0
+2b. pilot 42 rows: {'rows': 42, 'W_positive': 4, 'old_positive': 1, 'new_positive': 1, 'rescued_old_zero': 0, 'lost_old_positive': 0, 'fewer_than_two_nonresidue': 27, 'Qmag_counterexamples': 3}; Qmag counterexamples [(670849, 1, 8), (53722321, 8, 1), (38296729, 3, 8)]; mismatches 0
+   dev rows 500 (23s)
+   dev rows 1000 (40s)
+   dev rows 1500 (55s)
+   dev rows 2000 (70s)
+   dev rows 2500 (85s)
+   dev rows 3000 (98s)
+   dev rows 3500 (111s)
+   dev rows 4000 (124s)
+   dev rows 4500 (139s)
+2c. development: {'rows': 4709, 'W_positive': 4709, 'old_positive': 0, 'new_positive': 355, 'rescued_old_zero': 355, 'lost_old_positive': 0, 'fewer_than_two_nonresidue': 0, 'Qmag_counterexamples': 4354}; first rescue 16000609 (3,8) c_mag=363/2048; observation violations 170; mismatches 0
+2e. SHA256SUMS 14/15 from blobs, 1 after LF->CRLF (['l8-development-results.csv']), replay source hash ok=True
+done: mismatches 0, 146.1 s
+EXIT 0
