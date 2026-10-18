@@ -1,0 +1,10 @@
+0. lambda(4k)=8 <=> k in {8,24,40,120} (k<=5000); 18 L8 pairs, 81 E pairs, disjoint, union 99
+Traceback (most recent call last):
+  File "D:\Github\Outcasts-MathLab\Research\L8Magnitude69Check20261018\check69_l8.py", line 295, in <module>
+    same(mine, th, fields, f'73:{a},{u}', mism)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Github\Outcasts-MathLab\Research\L8Magnitude69Check20261018\check69_l8.py", line 239, in same
+    a, b = mine[k], theirs[k]
+                    ~~~~~~^^^
+KeyError: 'terms'
+EXIT 1

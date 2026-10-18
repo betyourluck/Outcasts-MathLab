@@ -236,7 +236,7 @@ def S(x):
 
 def same(mine, theirs, fields, tag, mism):
     for k in fields:
-        a, b = mine[k], theirs[k]
+        a, b = mine[k], theirs['order8_magnitude_terms' if k == 'terms' else k]
         if k in ('R', 'C', 'ell_over_phi', 'eta', 'old_c', 'b', 'raw_lower', 'c_mag'):
             ok = Fr(str(b)) == a
         elif k == 'factors' or k == 'nonresidue_factors':
