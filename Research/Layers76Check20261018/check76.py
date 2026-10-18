@@ -121,7 +121,11 @@ for r in rows:
         K = closure(gens, c)
         assert [tII in K, tI in K, (c - 1) in K, (-4) % c in K] == kK, (p, q, t)
         G2 = {u * u % c for u in range(1, c) if math.gcd(u, c) == 1}
-        KG2 = {a * b % c for a in K for b in G2}
+        primes_c = phi_fac(c)[2]
+        reps = {}
+        for k in K:                                   # one representative of K per class of G / G^2
+            reps.setdefault(tuple(leg(k, ell) for ell in primes_c), k)
+        KG2 = {a * b % c for a in reps.values() for b in G2}
         assert [tII in KG2, tI in KG2, (c - 1) in KG2] == kQ, (p, q, t)
         ident['direct_closure_rows'] += 1
     else:

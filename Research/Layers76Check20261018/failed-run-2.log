@@ -1,0 +1,1 @@
+run 2 (9a30f03): no output within 10 minutes; stopped by hand before the 20-minute cap. Cause: K*G^2 built as a full set product (|K| x |G^2|, up to ~4.5e8 multiplications per row) for rows with phi(c) <= 30,000. Fixed by multiplying one representative of K per class of G/G^2 with G^2.
