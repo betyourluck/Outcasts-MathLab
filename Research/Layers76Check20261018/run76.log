@@ -1,0 +1,9 @@
+1,t=1: n=230 II_ok=51 I_ok=61 II_quad=0 I_quad=0 II_group=0 II_exp=179 I_group=6 I_exp=163 both=156 both_pure_exp=150
+3,t=1: n=217 II_ok=15 I_ok=22 II_quad=34 I_quad=34 II_group=0 II_exp=168 I_group=2 I_exp=159 both=187 both_pure_exp=151
+1,t>1: n=1522 II_ok=6 I_ok=22 II_quad=330 I_quad=330 II_group=19 II_exp=1167 I_group=95 I_exp=1075 both=1497 both_pure_exp=1060
+3,t>1: n=1422 II_ok=4 I_ok=8 II_quad=553 I_quad=553 II_group=21 II_exp=844 I_group=39 I_exp=822 both=1411 both_pure_exp=805
+total: n=3391 II_ok=76 I_ok=113 II_quad=917 I_quad=917 II_group=40 II_exp=2358 I_group=142 I_exp=2219 both=3251 both_pure_exp=2166
+omega_- {1: 3314, 3: 77}; equality rows [(2521, 11, 5, 2), (18490201, 211, 3, 1)]; sigma3 quad rows 34; sigma3 Type I residual [(66529, 241), (66529, 337)]
+identities: {'quad_equiv': 3391, 'II_group_iff_minus1': 3391, 'I_group_iff_minus4': 3391, 'sigma3_t1': 217, 'split': 3391, 'reduction': 3391, 'edge': 3391, 'omega1_form': 3314, 'direct_closure_rows': 2611, 'fixed_point_rows': 230}
+done: mismatches 0 [], 39.1 s
+EXIT 0
