@@ -1,0 +1,110 @@
+primes ok: 100687129, 2521; least nonresidues 17, 11
+A row (1,15): m=60 unit={41: 1, 251: 1, 1223: 1} |K|=16 |S|=8 delta_e=1 minimizers=1 extra choices=[1223]
+A row (2,7): m=56 unit={3: 1, 5: 1, 17: 1, 181: 1, 4363: 1} |K|=24 |S|=22 delta_e=1 minimizers=5 extra choices=[3, 5, 17, 4363]
+A row (4,5): m=80 unit={3: 1, 7: 1, 191: 1, 100411: 1} |K|=32 |S|=14 delta_e=1 minimizers=1 extra choices=[7]
+A row (19,1): m=76 unit={7: 2, 11: 1, 23: 1, 173: 1, 223: 1} |K|=36 |S|=24 delta_e=1 minimizers=5 extra choices=[7, 11, 173, 223]
+A row (1,13): m=52 unit={179: 1, 281249: 1} |K|=24 |S|=4 delta_e=2 minimizers=1 extra choices=[179]
+A row (22,1): m=88 unit={13: 1, 337: 1, 505619: 1} |K|=40 |S|=8 delta_e=2 minimizers=1 extra choices=[13]
+A row (13,2): m=104 unit={3: 1, 53: 1, 8232281: 1} |K|=48 |S|=8 delta_e=3 minimizers=1 extra choices=[3, 8232281]
+A row (20,1): m=80 unit={3: 1, 10357: 1, 64811: 1} |K|=32 |S|=8 delta_e=3 minimizers=2 extra choices=[3, 10357, 64811]
+OK   A1 delta_e (8 rows): 
+OK   A2 number of minimizers: 
+OK   A3 quoted words attain the minimum: 
+OK   A4 (2,7): 5^2*181*4363 is a minimizer: 
+OK   A4 (2,7): extra-factor choices: 
+OK   A5 |K|,|S| of >>85 table: 
+OK   A5 residues of unit factors mod m (>>85): 
+OK   A6 determinants and shared primes (14 pairings of >>85): 
+OK   A6 3p+4 = 41*7367351: 
+OK   A6 (3,2): s=119 divides N, s = -1 mod 24, squarefree: 
+OK   A6 (3,2): s=119 factors: 
+OK   A6 (11,1): s=615 divides N, s = -1 mod 44, squarefree: 
+OK   A6 (11,1): s=615 factors: 
+OK   A7 x = 5*11*457669: 
+OK   A7 signs mod 17: 
+OK   A7 signs mod p: 
+OK   A7 Omega_minus(x) mod p: 
+OK   A7 gcd(c,x)=1 and chi(x)=-1: 
+OK   A7 (x,y,z): 
+OK   A7 4xyz = p(xy+xz+yz): 
+OK   A8 dual coordinates (a,u,v,t): 
+OK   A8 s and identities: 
+OK   A8 au > 27: 
+OK   A9 reciprocity (r|p) = (-3|r)(r|17) on the three factors: 
+OK   A9 5 = 11 = 2 mod 3, 457669 = 1 mod 3: 
+OK   A10 c of (1,17) and (24,1): 
+OK   A10 c factorizations: 
+OK   A11 (N1, N2, D): 
+OK   A11 q | N1, q | D, q does not divide N2: 
+OK   A11 a2*N1 - a1*N2 = D: 
+OK   A12 N8 rows for p=100687129: 
+OK   A12 all 111 pairs primitive (gcd(a,u)=1): 
+OK   A12 q | ap+u => gcd(q,a)=1 on all odd prime factors of the 111 forms: 
+OK   A13 p=100687129: first source (17,1) hits Type II with d=275: 
+OK   A14 p=2521: ell=11, hit at the 53rd source (29,1), Type I: 
+OK   A14 p=2521: the 13 root sources all fail: 
+OK   A14 p=2521: path 11 -tau=25-> 29: 
+OK   A14 p=2521: certificate (c,x,d,y,z): 
+OK   A14 p=2521: number of discovered vertices: 
+A14 source order: [(11, 1), (11, 3), (11, 5), (11, 7), (11, 9), (11, 11), (11, 13), (11, 15), (11, 17), (11, 19), (11, 21), (11, 23), (11, 25), (211, 1), (211, 3), (211, 5), (131, 1), (131, 3), (131, 5), (131, 7), (233, 1), (233, 3), (17, 1), (17, 3), (17, 5), (17, 7), (17, 9), (17, 11), (853, 1), (107, 1), (107, 3), (107, 5), (107, 7), (73, 1), (73, 3), (73, 5), (1249, 1), (19, 1), (19, 3), (19, 5), (19, 7), (19, 9), (19, 11), (19, 13), (19, 15), (19, 17), (19, 19), (541, 1), (139, 1), (139, 3), (139, 5), (139, 7), (29, 1)]
+A14 vertices: [11, 17, 19, 23, 29, 37, 53, 67, 73, 107, 127, 131, 137, 139, 149, 211, 233, 241, 251, 433, 541, 643, 647, 673, 683, 853, 863, 1123, 1249, 1433, 1499, 1567, 1663, 1699, 1949, 1999, 2003, 2203, 2333]
+OK   B1 number of allowed odd tau: 
+OK   B1 tau list: 
+OK   B1 all 13 rows have Omega_minus = 1: 
+OK   B1 all x odd: 
+OK   B1 x values: 
+OK   B2 no full-modulus success: 
+OK   B2 both branches fail mod 11: 
+OK   B2 both branches pass mod 11, fail mod tau^2: 
+OK   B2 mixed rows: 
+OK   B2 no joint-only failures: 
+B3 Delta test vs direct d|x^2 test agreed on all 26 (row, branch) cases (asserted inside classify)
+OK   B3 agreement count: 
+OK   B4 x1 = 633 = 3*211: 
+OK   B4 shift table (tau2, x2, delta, v3(delta), v3(x2)): 
+OK   B5 >>87 x2 values vs definition (only tau=25 agrees): 
+OK   B5 >>87 "3^4 | 891" vs actual x(7)=765: 
+OK   B6 x(3) = 655 = 5*131: 
+OK   B6 tau2 = +-3 mod 5 among allowed, tau2 != 3: 
+OK   B6 5 | x2 for those tau2: 
+OK   B7 family 2*3^k +- 1: (k, tau, v3(delta), v3(x2)): 
+OK   B7 v3(delta) = k on the family: 
+OK   B7 k >= 2 members have v3(x2) = 1: 
+OK   B7 25 is not of the form 2*3^k +- 1 but is 2*k*3 +- 1: 
+OK   B8 roots of 11 tau^2 + 2521 mod 3^k and allowed tau: 
+OK   B9 tau=11: c=1331, gcd(11,121)=11: 
+OK   B9 1 vs 122 mod 11, 121, 1331: 
+OK   B10 tau=25: x = 3^4*29, Pplus: 
+OK   B10 Delta mod 11 contains -p=9 and -29=4: 
+OK   B10 Delta mod 625: 
+OK   B10 targets 604, 596 absent mod 625: 
+OK   B11 child (29,1): c=87, x=652=2^2*163, Pplus={1,2,4}: 
+OK   B11 -2521 = 2 mod 87, p+2 = 29*87: 
+OK   B11 Type I succeeds with d=1304, Type II fails: 
+OK   B11 denominators: 
+OK   B11 3^4 does not divide 652: 
+OK   B12 prime-power transport cases (all three conditions equivalent): 
+OK   B12 sum of omega(x) over 13 rows: 
+OK   JSON-A rows (a,u,N,m,delta): 
+OK   JSON-A factors: 
+OK   JSON-A |K|, |S|: 
+OK   JSON-A all minimizers (as sets): 
+OK   JSON-A square source: 
+OK   JSON-A signs: 
+OK   JSON-A counterexample: 
+OK   JSON-A BFS p=100687129 order: 
+OK   JSON-A BFS p=2521 order (53): 
+OK   JSON-A BFS p=2521 vertices: 
+OK   JSON-A BFS p=2521 hit: 
+OK   JSON-A statuses: 
+OK   JSON-B summary (tau, x, I, II): 
+OK   JSON-B factors and Pplus: 
+OK   JSON-B branch passes: 
+OK   JSON-B power_preservation_tests: 
+OK   JSON-B freeze table: 
+OK   JSON-B lifts: 
+OK   JSON-B tau25 Delta sets: 
+OK   JSON-B tau25 targets: 
+OK   JSON-B child solution: 
+mismatches: 0; seconds: 10.86
+exit=0

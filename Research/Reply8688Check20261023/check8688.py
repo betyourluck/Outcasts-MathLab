@@ -452,7 +452,7 @@ check('B5 >>87 x2 values vs definition (only tau=25 agrees)', {t: (P_B + 11 * t 
 check('B5 >>87 "3^4 | 891" vs actual x(7)=765', (891 % 81 == 0, factor(765)), (True, {3: 2, 5: 1, 17: 1}))
 x3 = rowsB[1]['x']
 check('B6 x(3) = 655 = 5*131', (x3, factor(x3)), (655, {5: 1, 131: 1}))
-check('B6 tau2 = +-3 mod 5 among allowed', [t for t in taus if t % 5 in (2, 3)], [7, 13, 17, 23])
+check('B6 tau2 = +-3 mod 5 among allowed, tau2 != 3', [t for t in taus if t % 5 in (2, 3) and t != 3], [7, 13, 17, 23])
 check('B6 5 | x2 for those tau2', [(P_B + 11 * t * t) // 4 % 5 == 0 for t in (7, 13, 17, 23)], [True] * 4)
 fam = []
 for k in range(1, 4):

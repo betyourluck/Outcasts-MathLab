@@ -1,0 +1,1820 @@
+{
+ "contract": "contract.md",
+ "mismatches": [],
+ "A12_pairs": 111,
+ "rowsA": [
+  {
+   "a": 1,
+   "u": 15,
+   "N": 100687144,
+   "m": 60,
+   "factors": {
+    "2": 3,
+    "41": 1,
+    "251": 1,
+    "1223": 1
+   },
+   "unit": {
+    "41": 1,
+    "251": 1,
+    "1223": 1
+   },
+   "K": 16,
+   "S": 8,
+   "residues": {
+    "41": 41,
+    "251": 11,
+    "1223": 23
+   },
+   "delta_e": 1,
+   "n_min": 1,
+   "minimizers": [
+    {
+     "exponents": {
+      "41": 0,
+      "251": 1,
+      "1223": 2
+     },
+     "extra": {
+      "1223": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    1223
+   ],
+   "word_cost": 1
+  },
+  {
+   "a": 2,
+   "u": 7,
+   "N": 201374265,
+   "m": 56,
+   "factors": {
+    "3": 1,
+    "5": 1,
+    "17": 1,
+    "181": 1,
+    "4363": 1
+   },
+   "unit": {
+    "3": 1,
+    "5": 1,
+    "17": 1,
+    "181": 1,
+    "4363": 1
+   },
+   "K": 24,
+   "S": 22,
+   "residues": {
+    "3": 3,
+    "5": 5,
+    "17": 17,
+    "181": 13,
+    "4363": 51
+   },
+   "delta_e": 1,
+   "n_min": 5,
+   "minimizers": [
+    {
+     "exponents": {
+      "3": 0,
+      "5": 1,
+      "17": 2,
+      "181": 0,
+      "4363": 1
+     },
+     "extra": {
+      "17": 1
+     }
+    },
+    {
+     "exponents": {
+      "3": 0,
+      "5": 2,
+      "17": 0,
+      "181": 1,
+      "4363": 1
+     },
+     "extra": {
+      "5": 1
+     }
+    },
+    {
+     "exponents": {
+      "3": 1,
+      "5": 0,
+      "17": 1,
+      "181": 1,
+      "4363": 2
+     },
+     "extra": {
+      "4363": 1
+     }
+    },
+    {
+     "exponents": {
+      "3": 1,
+      "5": 2,
+      "17": 1,
+      "181": 1,
+      "4363": 0
+     },
+     "extra": {
+      "5": 1
+     }
+    },
+    {
+     "exponents": {
+      "3": 2,
+      "5": 1,
+      "17": 0,
+      "181": 0,
+      "4363": 1
+     },
+     "extra": {
+      "3": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    3,
+    5,
+    17,
+    4363
+   ],
+   "word_cost": 1
+  },
+  {
+   "a": 4,
+   "u": 5,
+   "N": 402748521,
+   "m": 80,
+   "factors": {
+    "3": 1,
+    "7": 1,
+    "191": 1,
+    "100411": 1
+   },
+   "unit": {
+    "3": 1,
+    "7": 1,
+    "191": 1,
+    "100411": 1
+   },
+   "K": 32,
+   "S": 14,
+   "residues": {
+    "3": 3,
+    "7": 7,
+    "191": 31,
+    "100411": 11
+   },
+   "delta_e": 1,
+   "n_min": 1,
+   "minimizers": [
+    {
+     "exponents": {
+      "3": 0,
+      "7": 2,
+      "191": 1,
+      "100411": 0
+     },
+     "extra": {
+      "7": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    7
+   ],
+   "word_cost": 1
+  },
+  {
+   "a": 19,
+   "u": 1,
+   "N": 1913055452,
+   "m": 76,
+   "factors": {
+    "2": 2,
+    "7": 2,
+    "11": 1,
+    "23": 1,
+    "173": 1,
+    "223": 1
+   },
+   "unit": {
+    "7": 2,
+    "11": 1,
+    "23": 1,
+    "173": 1,
+    "223": 1
+   },
+   "K": 36,
+   "S": 24,
+   "residues": {
+    "7": 7,
+    "11": 11,
+    "23": 23,
+    "173": 21,
+    "223": 71
+   },
+   "delta_e": 1,
+   "n_min": 5,
+   "minimizers": [
+    {
+     "exponents": {
+      "7": 0,
+      "11": 0,
+      "23": 0,
+      "173": 2,
+      "223": 1
+     },
+     "extra": {
+      "173": 1
+     }
+    },
+    {
+     "exponents": {
+      "7": 0,
+      "11": 1,
+      "23": 0,
+      "173": 1,
+      "223": 2
+     },
+     "extra": {
+      "223": 1
+     }
+    },
+    {
+     "exponents": {
+      "7": 0,
+      "11": 2,
+      "23": 1,
+      "173": 1,
+      "223": 0
+     },
+     "extra": {
+      "11": 1
+     }
+    },
+    {
+     "exponents": {
+      "7": 1,
+      "11": 1,
+      "23": 0,
+      "173": 2,
+      "223": 1
+     },
+     "extra": {
+      "173": 1
+     }
+    },
+    {
+     "exponents": {
+      "7": 3,
+      "11": 0,
+      "23": 1,
+      "173": 0,
+      "223": 1
+     },
+     "extra": {
+      "7": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    7,
+    11,
+    173,
+    223
+   ],
+   "word_cost": 1
+  },
+  {
+   "a": 1,
+   "u": 13,
+   "N": 100687142,
+   "m": 52,
+   "factors": {
+    "2": 1,
+    "179": 1,
+    "281249": 1
+   },
+   "unit": {
+    "179": 1,
+    "281249": 1
+   },
+   "K": 24,
+   "S": 4,
+   "residues": {
+    "179": 23,
+    "281249": 33
+   },
+   "delta_e": 2,
+   "n_min": 1,
+   "minimizers": [
+    {
+     "exponents": {
+      "179": 3,
+      "281249": 0
+     },
+     "extra": {
+      "179": 2
+     }
+    }
+   ],
+   "extra_choices": [
+    179
+   ],
+   "word_cost": 2
+  },
+  {
+   "a": 22,
+   "u": 1,
+   "N": 2215116839,
+   "m": 88,
+   "factors": {
+    "13": 1,
+    "337": 1,
+    "505619": 1
+   },
+   "unit": {
+    "13": 1,
+    "337": 1,
+    "505619": 1
+   },
+   "K": 40,
+   "S": 8,
+   "residues": {
+    "13": 13,
+    "337": 73,
+    "505619": 59
+   },
+   "delta_e": 2,
+   "n_min": 1,
+   "minimizers": [
+    {
+     "exponents": {
+      "13": 3,
+      "337": 0,
+      "505619": 1
+     },
+     "extra": {
+      "13": 2
+     }
+    }
+   ],
+   "extra_choices": [
+    13
+   ],
+   "word_cost": 2
+  },
+  {
+   "a": 13,
+   "u": 2,
+   "N": 1308932679,
+   "m": 104,
+   "factors": {
+    "3": 1,
+    "53": 1,
+    "8232281": 1
+   },
+   "unit": {
+    "3": 1,
+    "53": 1,
+    "8232281": 1
+   },
+   "K": 48,
+   "S": 8,
+   "residues": {
+    "3": 3,
+    "53": 53,
+    "8232281": 57
+   },
+   "delta_e": 3,
+   "n_min": 1,
+   "minimizers": [
+    {
+     "exponents": {
+      "3": 3,
+      "53": 1,
+      "8232281": 2
+     },
+     "extra": {
+      "3": 2,
+      "8232281": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    3,
+    8232281
+   ],
+   "word_cost": 3
+  },
+  {
+   "a": 20,
+   "u": 1,
+   "N": 2013742581,
+   "m": 80,
+   "factors": {
+    "3": 1,
+    "10357": 1,
+    "64811": 1
+   },
+   "unit": {
+    "3": 1,
+    "10357": 1,
+    "64811": 1
+   },
+   "K": 32,
+   "S": 8,
+   "residues": {
+    "3": 3,
+    "10357": 37,
+    "64811": 11
+   },
+   "delta_e": 3,
+   "n_min": 2,
+   "minimizers": [
+    {
+     "exponents": {
+      "3": 1,
+      "10357": 3,
+      "64811": 2
+     },
+     "extra": {
+      "10357": 2,
+      "64811": 1
+     }
+    },
+    {
+     "exponents": {
+      "3": 3,
+      "10357": 1,
+      "64811": 2
+     },
+     "extra": {
+      "3": 2,
+      "64811": 1
+     }
+    }
+   ],
+   "extra_choices": [
+    3,
+    10357,
+    64811
+   ],
+   "word_cost": 3
+  }
+ ],
+ "confluence": [
+  {
+   "pair1": [
+    2,
+    7
+   ],
+   "pair2": [
+    3,
+    2
+   ],
+   "det": 17,
+   "det_factors": {
+    "17": 1
+   },
+   "shared_odd_primes": [
+    17
+   ],
+   "claimed_shared": [
+    17
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    4,
+    5
+   ],
+   "pair2": [
+    3,
+    2
+   ],
+   "det": 7,
+   "det_factors": {
+    "7": 1
+   },
+   "shared_odd_primes": [
+    7
+   ],
+   "claimed_shared": [
+    7
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    1,
+    15
+   ],
+   "pair2": [
+    11,
+    1
+   ],
+   "det": 164,
+   "det_factors": {
+    "2": 2,
+    "41": 1
+   },
+   "shared_odd_primes": [
+    41
+   ],
+   "claimed_shared": [
+    41
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    2,
+    7
+   ],
+   "pair2": [
+    11,
+    1
+   ],
+   "det": 75,
+   "det_factors": {
+    "3": 1,
+    "5": 2
+   },
+   "shared_odd_primes": [
+    3,
+    5
+   ],
+   "claimed_shared": [
+    3,
+    5
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    4,
+    5
+   ],
+   "pair2": [
+    1,
+    17
+   ],
+   "det": 63,
+   "det_factors": {
+    "3": 2,
+    "7": 1
+   },
+   "shared_odd_primes": [
+    3,
+    7
+   ],
+   "claimed_shared": [
+    3,
+    7
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    19,
+    1
+   ],
+   "pair2": [
+    3,
+    2
+   ],
+   "det": 35,
+   "det_factors": {
+    "5": 1,
+    "7": 1
+   },
+   "shared_odd_primes": [
+    7
+   ],
+   "claimed_shared": [
+    7
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    19,
+    1
+   ],
+   "pair2": [
+    1,
+    17
+   ],
+   "det": 322,
+   "det_factors": {
+    "2": 1,
+    "7": 1,
+    "23": 1
+   },
+   "shared_odd_primes": [
+    7,
+    23
+   ],
+   "claimed_shared": [
+    7,
+    23
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    3,
+    4
+   ],
+   "pair2": [
+    11,
+    1
+   ],
+   "det": 41,
+   "det_factors": {
+    "41": 1
+   },
+   "shared_odd_primes": [
+    41
+   ],
+   "claimed_shared": [
+    41
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    13,
+    2
+   ],
+   "pair2": [
+    1,
+    17
+   ],
+   "det": 219,
+   "det_factors": {
+    "3": 1,
+    "73": 1
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    13,
+    2
+   ],
+   "pair2": [
+    11,
+    1
+   ],
+   "det": 9,
+   "det_factors": {
+    "3": 2
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    13,
+    2
+   ],
+   "pair2": [
+    17,
+    1
+   ],
+   "det": 21,
+   "det_factors": {
+    "3": 1,
+    "7": 1
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    20,
+    1
+   ],
+   "pair2": [
+    1,
+    17
+   ],
+   "det": 339,
+   "det_factors": {
+    "3": 1,
+    "113": 1
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    20,
+    1
+   ],
+   "pair2": [
+    11,
+    1
+   ],
+   "det": 9,
+   "det_factors": {
+    "3": 2
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  },
+  {
+   "pair1": [
+    20,
+    1
+   ],
+   "pair2": [
+    17,
+    1
+   ],
+   "det": 3,
+   "det_factors": {
+    "3": 1
+   },
+   "shared_odd_primes": [
+    3
+   ],
+   "claimed_shared": [
+    3
+   ],
+   "ok": true
+  }
+ ],
+ "square_source": {
+  "x": 25171795,
+  "c": 51,
+  "d": 275,
+  "y": 49696146260530,
+  "z": 4548877112582100914,
+  "a": 8974,
+  "u": 5,
+  "v": 11,
+  "t": 457669,
+  "s": 1974279
+ },
+ "a10": [
+  {
+   "a": 1,
+   "u": 17,
+   "t": 46,
+   "s": 2188851,
+   "v": 32189,
+   "c": 63,
+   "x": 25171798,
+   "d": 9302621
+  },
+  {
+   "a": 24,
+   "u": 1,
+   "t": 1319,
+   "s": 1832063,
+   "v": 19084,
+   "c": 55,
+   "x": 25171796,
+   "d": 19084
+  }
+ ],
+ "bfs": {
+  "p100687129": {
+   "p": 100687129,
+   "ell": 17,
+   "status": "hit",
+   "checked": 1,
+   "order": [
+    [
+     17,
+     1
+    ]
+   ],
+   "vertices": [
+    17
+   ],
+   "path": [],
+   "hit": {
+    "branch": "II",
+    "q": 17,
+    "tau": 1,
+    "c": 51,
+    "x": 25171795,
+    "d": 275,
+    "y": 49696146260530,
+    "z": 4548877112582100914
+   }
+  },
+  "p2521": {
+   "p": 2521,
+   "ell": 11,
+   "status": "hit",
+   "checked": 53,
+   "order": [
+    [
+     11,
+     1
+    ],
+    [
+     11,
+     3
+    ],
+    [
+     11,
+     5
+    ],
+    [
+     11,
+     7
+    ],
+    [
+     11,
+     9
+    ],
+    [
+     11,
+     11
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     11,
+     15
+    ],
+    [
+     11,
+     17
+    ],
+    [
+     11,
+     19
+    ],
+    [
+     11,
+     21
+    ],
+    [
+     11,
+     23
+    ],
+    [
+     11,
+     25
+    ],
+    [
+     211,
+     1
+    ],
+    [
+     211,
+     3
+    ],
+    [
+     211,
+     5
+    ],
+    [
+     131,
+     1
+    ],
+    [
+     131,
+     3
+    ],
+    [
+     131,
+     5
+    ],
+    [
+     131,
+     7
+    ],
+    [
+     233,
+     1
+    ],
+    [
+     233,
+     3
+    ],
+    [
+     17,
+     1
+    ],
+    [
+     17,
+     3
+    ],
+    [
+     17,
+     5
+    ],
+    [
+     17,
+     7
+    ],
+    [
+     17,
+     9
+    ],
+    [
+     17,
+     11
+    ],
+    [
+     853,
+     1
+    ],
+    [
+     107,
+     1
+    ],
+    [
+     107,
+     3
+    ],
+    [
+     107,
+     5
+    ],
+    [
+     107,
+     7
+    ],
+    [
+     73,
+     1
+    ],
+    [
+     73,
+     3
+    ],
+    [
+     73,
+     5
+    ],
+    [
+     1249,
+     1
+    ],
+    [
+     19,
+     1
+    ],
+    [
+     19,
+     3
+    ],
+    [
+     19,
+     5
+    ],
+    [
+     19,
+     7
+    ],
+    [
+     19,
+     9
+    ],
+    [
+     19,
+     11
+    ],
+    [
+     19,
+     13
+    ],
+    [
+     19,
+     15
+    ],
+    [
+     19,
+     17
+    ],
+    [
+     19,
+     19
+    ],
+    [
+     541,
+     1
+    ],
+    [
+     139,
+     1
+    ],
+    [
+     139,
+     3
+    ],
+    [
+     139,
+     5
+    ],
+    [
+     139,
+     7
+    ],
+    [
+     29,
+     1
+    ]
+   ],
+   "vertices": [
+    11,
+    17,
+    19,
+    23,
+    29,
+    37,
+    53,
+    67,
+    73,
+    107,
+    127,
+    131,
+    137,
+    139,
+    149,
+    211,
+    233,
+    241,
+    251,
+    433,
+    541,
+    643,
+    647,
+    673,
+    683,
+    853,
+    863,
+    1123,
+    1249,
+    1433,
+    1499,
+    1567,
+    1663,
+    1699,
+    1949,
+    1999,
+    2003,
+    2203,
+    2333
+   ],
+   "path": [
+    [
+     11,
+     25,
+     29
+    ]
+   ],
+   "hit": {
+    "branch": "I",
+    "q": 29,
+    "tau": 1,
+    "c": 87,
+    "x": 652,
+    "d": 1304,
+    "y": 18908,
+    "z": 23833534
+   }
+  }
+ },
+ "rowsB": [
+  {
+   "tau": 1,
+   "c": 11,
+   "x": 633,
+   "factors": {
+    "3": 1,
+    "211": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3
+   ],
+   "gcd_base_square": 1,
+   "r": 211,
+   "I": {
+    "base_pass": false,
+    "square_pass": true,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": true,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 3,
+   "c": 99,
+   "x": 655,
+   "factors": {
+    "5": 1,
+    "131": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    5
+   ],
+   "gcd_base_square": 1,
+   "r": 131,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 5,
+   "c": 275,
+   "x": 699,
+   "factors": {
+    "3": 1,
+    "233": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3
+   ],
+   "gcd_base_square": 1,
+   "r": 233,
+   "I": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": true,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 7,
+   "c": 539,
+   "x": 765,
+   "factors": {
+    "3": 2,
+    "5": 1,
+    "17": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    5,
+    9,
+    15,
+    45
+   ],
+   "gcd_base_square": 1,
+   "r": 17,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 9,
+   "c": 891,
+   "x": 853,
+   "factors": {
+    "853": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1
+   ],
+   "gcd_base_square": 1,
+   "r": 853,
+   "I": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 11,
+   "c": 1331,
+   "x": 963,
+   "factors": {
+    "3": 2,
+    "107": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    9
+   ],
+   "gcd_base_square": 11,
+   "r": 107,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 13,
+   "c": 1859,
+   "x": 1095,
+   "factors": {
+    "3": 1,
+    "5": 1,
+    "73": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    5,
+    15
+   ],
+   "gcd_base_square": 1,
+   "r": 73,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 15,
+   "c": 2475,
+   "x": 1249,
+   "factors": {
+    "1249": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1
+   ],
+   "gcd_base_square": 1,
+   "r": 1249,
+   "I": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 17,
+   "c": 3179,
+   "x": 1425,
+   "factors": {
+    "3": 1,
+    "5": 2,
+    "19": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    5,
+    15,
+    25,
+    75
+   ],
+   "gcd_base_square": 1,
+   "r": 19,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 19,
+   "c": 3971,
+   "x": 1623,
+   "factors": {
+    "3": 1,
+    "541": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3
+   ],
+   "gcd_base_square": 1,
+   "r": 541,
+   "I": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 21,
+   "c": 4851,
+   "x": 1843,
+   "factors": {
+    "19": 1,
+    "97": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    97
+   ],
+   "gcd_base_square": 1,
+   "r": 19,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": false,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "base",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 23,
+   "c": 5819,
+   "x": 2085,
+   "factors": {
+    "3": 1,
+    "5": 1,
+    "139": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    5,
+    15
+   ],
+   "gcd_base_square": 1,
+   "r": 139,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  },
+  {
+   "tau": 25,
+   "c": 6875,
+   "x": 2349,
+   "factors": {
+    "3": 4,
+    "29": 1
+   },
+   "omega_minus": 1,
+   "Pplus": [
+    1,
+    3,
+    9,
+    27,
+    81
+   ],
+   "gcd_base_square": 1,
+   "r": 29,
+   "I": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   },
+   "II": {
+    "base_pass": true,
+    "square_pass": false,
+    "full_pass": false,
+    "class": "square",
+    "direct_hits": []
+   }
+  }
+ ],
+ "shift_table": [
+  [
+   5,
+   699,
+   6,
+   1,
+   1
+  ],
+  [
+   7,
+   765,
+   12,
+   1,
+   2
+  ],
+  [
+   17,
+   1425,
+   72,
+   2,
+   1
+  ],
+  [
+   19,
+   1623,
+   90,
+   2,
+   1
+  ],
+  [
+   25,
+   2349,
+   156,
+   1,
+   4
+  ]
+ ],
+ "family": [
+  [
+   1,
+   7,
+   1,
+   2
+  ],
+  [
+   1,
+   5,
+   1,
+   1
+  ],
+  [
+   2,
+   19,
+   2,
+   1
+  ],
+  [
+   2,
+   17,
+   2,
+   1
+  ]
+ ],
+ "lifts": [
+  [
+   1,
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    25
+   ]
+  ],
+  [
+   2,
+   [
+    2,
+    7
+   ],
+   [
+    7,
+    11,
+    25
+   ]
+  ],
+  [
+   3,
+   [
+    2,
+    25
+   ],
+   [
+    25
+   ]
+  ],
+  [
+   4,
+   [
+    25,
+    56
+   ],
+   [
+    25
+   ]
+  ],
+  [
+   5,
+   [
+    106,
+    137
+   ],
+   []
+  ]
+ ],
+ "tau25": {
+  "delta11": [
+   1,
+   3,
+   4,
+   5,
+   9
+  ],
+  "delta625": [
+   1,
+   3,
+   9,
+   27,
+   81,
+   139,
+   417,
+   463,
+   571
+  ]
+ },
+ "child": {
+  "tau": 1,
+  "c": 87,
+  "x": 652,
+  "factors": {
+   "2": 2,
+   "163": 1
+  },
+  "omega_minus": 1,
+  "Pplus": [
+   1,
+   2,
+   4
+  ],
+  "gcd_base_square": 1,
+  "r": 163,
+  "I": {
+   "base_pass": true,
+   "square_pass": true,
+   "full_pass": true,
+   "class": "success",
+   "direct_hits": [
+    1304
+   ]
+  },
+  "II": {
+   "base_pass": false,
+   "square_pass": true,
+   "full_pass": false,
+   "class": "base",
+   "direct_hits": []
+  }
+ },
+ "transport_cases": 336,
+ "seconds": 10.86,
+ "log": [
+  "primes ok: 100687129, 2521; least nonresidues 17, 11",
+  "A row (1,15): m=60 unit={41: 1, 251: 1, 1223: 1} |K|=16 |S|=8 delta_e=1 minimizers=1 extra choices=[1223]",
+  "A row (2,7): m=56 unit={3: 1, 5: 1, 17: 1, 181: 1, 4363: 1} |K|=24 |S|=22 delta_e=1 minimizers=5 extra choices=[3, 5, 17, 4363]",
+  "A row (4,5): m=80 unit={3: 1, 7: 1, 191: 1, 100411: 1} |K|=32 |S|=14 delta_e=1 minimizers=1 extra choices=[7]",
+  "A row (19,1): m=76 unit={7: 2, 11: 1, 23: 1, 173: 1, 223: 1} |K|=36 |S|=24 delta_e=1 minimizers=5 extra choices=[7, 11, 173, 223]",
+  "A row (1,13): m=52 unit={179: 1, 281249: 1} |K|=24 |S|=4 delta_e=2 minimizers=1 extra choices=[179]",
+  "A row (22,1): m=88 unit={13: 1, 337: 1, 505619: 1} |K|=40 |S|=8 delta_e=2 minimizers=1 extra choices=[13]",
+  "A row (13,2): m=104 unit={3: 1, 53: 1, 8232281: 1} |K|=48 |S|=8 delta_e=3 minimizers=1 extra choices=[3, 8232281]",
+  "A row (20,1): m=80 unit={3: 1, 10357: 1, 64811: 1} |K|=32 |S|=8 delta_e=3 minimizers=2 extra choices=[3, 10357, 64811]",
+  "OK   A1 delta_e (8 rows): ",
+  "OK   A2 number of minimizers: ",
+  "OK   A3 quoted words attain the minimum: ",
+  "OK   A4 (2,7): 5^2*181*4363 is a minimizer: ",
+  "OK   A4 (2,7): extra-factor choices: ",
+  "OK   A5 |K|,|S| of >>85 table: ",
+  "OK   A5 residues of unit factors mod m (>>85): ",
+  "OK   A6 determinants and shared primes (14 pairings of >>85): ",
+  "OK   A6 3p+4 = 41*7367351: ",
+  "OK   A6 (3,2): s=119 divides N, s = -1 mod 24, squarefree: ",
+  "OK   A6 (3,2): s=119 factors: ",
+  "OK   A6 (11,1): s=615 divides N, s = -1 mod 44, squarefree: ",
+  "OK   A6 (11,1): s=615 factors: ",
+  "OK   A7 x = 5*11*457669: ",
+  "OK   A7 signs mod 17: ",
+  "OK   A7 signs mod p: ",
+  "OK   A7 Omega_minus(x) mod p: ",
+  "OK   A7 gcd(c,x)=1 and chi(x)=-1: ",
+  "OK   A7 (x,y,z): ",
+  "OK   A7 4xyz = p(xy+xz+yz): ",
+  "OK   A8 dual coordinates (a,u,v,t): ",
+  "OK   A8 s and identities: ",
+  "OK   A8 au > 27: ",
+  "OK   A9 reciprocity (r|p) = (-3|r)(r|17) on the three factors: ",
+  "OK   A9 5 = 11 = 2 mod 3, 457669 = 1 mod 3: ",
+  "OK   A10 c of (1,17) and (24,1): ",
+  "OK   A10 c factorizations: ",
+  "OK   A11 (N1, N2, D): ",
+  "OK   A11 q | N1, q | D, q does not divide N2: ",
+  "OK   A11 a2*N1 - a1*N2 = D: ",
+  "OK   A12 N8 rows for p=100687129: ",
+  "OK   A12 all 111 pairs primitive (gcd(a,u)=1): ",
+  "OK   A12 q | ap+u => gcd(q,a)=1 on all odd prime factors of the 111 forms: ",
+  "OK   A13 p=100687129: first source (17,1) hits Type II with d=275: ",
+  "OK   A14 p=2521: ell=11, hit at the 53rd source (29,1), Type I: ",
+  "OK   A14 p=2521: the 13 root sources all fail: ",
+  "OK   A14 p=2521: path 11 -tau=25-> 29: ",
+  "OK   A14 p=2521: certificate (c,x,d,y,z): ",
+  "OK   A14 p=2521: number of discovered vertices: ",
+  "A14 source order: [(11, 1), (11, 3), (11, 5), (11, 7), (11, 9), (11, 11), (11, 13), (11, 15), (11, 17), (11, 19), (11, 21), (11, 23), (11, 25), (211, 1), (211, 3), (211, 5), (131, 1), (131, 3), (131, 5), (131, 7), (233, 1), (233, 3), (17, 1), (17, 3), (17, 5), (17, 7), (17, 9), (17, 11), (853, 1), (107, 1), (107, 3), (107, 5), (107, 7), (73, 1), (73, 3), (73, 5), (1249, 1), (19, 1), (19, 3), (19, 5), (19, 7), (19, 9), (19, 11), (19, 13), (19, 15), (19, 17), (19, 19), (541, 1), (139, 1), (139, 3), (139, 5), (139, 7), (29, 1)]",
+  "A14 vertices: [11, 17, 19, 23, 29, 37, 53, 67, 73, 107, 127, 131, 137, 139, 149, 211, 233, 241, 251, 433, 541, 643, 647, 673, 683, 853, 863, 1123, 1249, 1433, 1499, 1567, 1663, 1699, 1949, 1999, 2003, 2203, 2333]",
+  "OK   B1 number of allowed odd tau: ",
+  "OK   B1 tau list: ",
+  "OK   B1 all 13 rows have Omega_minus = 1: ",
+  "OK   B1 all x odd: ",
+  "OK   B1 x values: ",
+  "OK   B2 no full-modulus success: ",
+  "OK   B2 both branches fail mod 11: ",
+  "OK   B2 both branches pass mod 11, fail mod tau^2: ",
+  "OK   B2 mixed rows: ",
+  "OK   B2 no joint-only failures: ",
+  "B3 Delta test vs direct d|x^2 test agreed on all 26 (row, branch) cases (asserted inside classify)",
+  "OK   B3 agreement count: ",
+  "OK   B4 x1 = 633 = 3*211: ",
+  "OK   B4 shift table (tau2, x2, delta, v3(delta), v3(x2)): ",
+  "OK   B5 >>87 x2 values vs definition (only tau=25 agrees): ",
+  "OK   B5 >>87 \"3^4 | 891\" vs actual x(7)=765: ",
+  "OK   B6 x(3) = 655 = 5*131: ",
+  "OK   B6 tau2 = +-3 mod 5 among allowed, tau2 != 3: ",
+  "OK   B6 5 | x2 for those tau2: ",
+  "OK   B7 family 2*3^k +- 1: (k, tau, v3(delta), v3(x2)): ",
+  "OK   B7 v3(delta) = k on the family: ",
+  "OK   B7 k >= 2 members have v3(x2) = 1: ",
+  "OK   B7 25 is not of the form 2*3^k +- 1 but is 2*k*3 +- 1: ",
+  "OK   B8 roots of 11 tau^2 + 2521 mod 3^k and allowed tau: ",
+  "OK   B9 tau=11: c=1331, gcd(11,121)=11: ",
+  "OK   B9 1 vs 122 mod 11, 121, 1331: ",
+  "OK   B10 tau=25: x = 3^4*29, Pplus: ",
+  "OK   B10 Delta mod 11 contains -p=9 and -29=4: ",
+  "OK   B10 Delta mod 625: ",
+  "OK   B10 targets 604, 596 absent mod 625: ",
+  "OK   B11 child (29,1): c=87, x=652=2^2*163, Pplus={1,2,4}: ",
+  "OK   B11 -2521 = 2 mod 87, p+2 = 29*87: ",
+  "OK   B11 Type I succeeds with d=1304, Type II fails: ",
+  "OK   B11 denominators: ",
+  "OK   B11 3^4 does not divide 652: ",
+  "OK   B12 prime-power transport cases (all three conditions equivalent): ",
+  "OK   B12 sum of omega(x) over 13 rows: ",
+  "OK   JSON-A rows (a,u,N,m,delta): ",
+  "OK   JSON-A factors: ",
+  "OK   JSON-A |K|, |S|: ",
+  "OK   JSON-A all minimizers (as sets): ",
+  "OK   JSON-A square source: ",
+  "OK   JSON-A signs: ",
+  "OK   JSON-A counterexample: ",
+  "OK   JSON-A BFS p=100687129 order: ",
+  "OK   JSON-A BFS p=2521 order (53): ",
+  "OK   JSON-A BFS p=2521 vertices: ",
+  "OK   JSON-A BFS p=2521 hit: ",
+  "OK   JSON-A statuses: ",
+  "OK   JSON-B summary (tau, x, I, II): ",
+  "OK   JSON-B factors and Pplus: ",
+  "OK   JSON-B branch passes: ",
+  "OK   JSON-B power_preservation_tests: ",
+  "OK   JSON-B freeze table: ",
+  "OK   JSON-B lifts: ",
+  "OK   JSON-B tau25 Delta sets: ",
+  "OK   JSON-B tau25 targets: ",
+  "OK   JSON-B child solution: ",
+  "mismatches: 0; seconds: 10.86"
+ ]
+}
