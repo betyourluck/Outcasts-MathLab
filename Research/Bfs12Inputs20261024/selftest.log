@@ -1,0 +1,11 @@
+p=1201 ell=11 BFS: type 1, D=1, checked 12, vertices 12, hit (13,1) II d=2, path [{'parent': 11, 'tau': 3, 'child': 13, 'v_child': 1}], 0.0s
+p=1201 sweep: S0=0/9 (II 0, I 0), failing root 9, children 9 (success 1, fail 8, undetermined 0), E1' holds for 1/9, E1 by sweep True, 0.0s
+p=1201 Hensel: pairs 1 (k90>=2: 1, kref>k90: 0), exceptions 0, lifts beyond kref 0
+p=100000609 ell=13 BFS: type 1, D=0, checked 1, vertices 1, hit (13,1) II d=242, path [], 0.0s
+p=100000609 sweep: S0=2/1387 (II 2, I 2), failing root 1385, children 851 (success 24, fail 827, undetermined 0), E1' holds for 418/1385, E1 by sweep True, 7.92s
+p=100000609 Hensel: pairs 820 (k90>=2: 801, kref>k90: 26), exceptions 0, lifts beyond kref 312
+p=100687129 ell=17 BFS: type 1, D=0, checked 1, vertices 1, hit (17,1) II d=275, path [], 0.0s
+p=100687129 sweep: S0=1/1217 (II 1, I 0), failing root 1216, children 900 (success 15, fail 885, undetermined 0), E1' holds for 146/1216, E1 by sweep True, 8.08s
+p=100687129 Hensel: pairs 792 (k90>=2: 761, kref>k90: 34), exceptions 0, lifts beyond kref 279
+regression 2521 BFS (order 53, vertices 39, D=1): OK
+done: 16.2s
