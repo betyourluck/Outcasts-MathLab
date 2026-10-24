@@ -1,0 +1,39 @@
+G0 ok: HEAD 981e02607f257e49cd608764e0b34c3367a7f31b, inputs [2521, 66529, 345601, 670849, 1740481, 3678481, 5843041, 8615161, 18490201, 38296729, 53722321, 84525841]
+p=2521 ell=11 BFS: type 1, D=1, checked 53, vertices 39, hit (29,1) I d=1304, path [{'parent': 11, 'tau': 25, 'child': 29, 'v_child': 1}], 0.0s
+p=2521 sweep: S0=0/13 (II 0, I 0), failing root 13, children 12 (success 1, fail 11, undetermined 0), E1' holds for 1/13, E1 by sweep True, 0.0s
+p=2521 Hensel: pairs 4 (k90>=2: 2, kref>k90: 3), exceptions 0, lifts beyond kref 1
+p=66529 ell=13 BFS: type 1, D=0, checked 2, vertices 2, hit (13,3) II d=128, path [], 0.0s
+p=66529 sweep: S0=1/36 (II 1, I 1), failing root 35, children 30 (success 3, fail 27, undetermined 0), E1' holds for 6/35, E1 by sweep True, 0.01s
+p=66529 Hensel: pairs 11 (k90>=2: 10, kref>k90: 1), exceptions 0, lifts beyond kref 7
+p=345601 ell=19 BFS: type 1, D=0, checked 1, vertices 1, hit (19,1) II d=121, path [], 0.0s
+p=345601 sweep: S0=1/117 (II 1, I 1), failing root 116, children 89 (success 7, fail 82, undetermined 0), E1' holds for 23/116, E1 by sweep True, 0.06s
+p=345601 Hensel: pairs 49 (k90>=2: 45, kref>k90: 5), exceptions 0, lifts beyond kref 21
+p=670849 ell=17 BFS: type 1, D=0, checked 1, vertices 1, hit (17,1) I d=838625, path [], 0.0s
+p=670849 sweep: S0=2/99 (II 0, I 2), failing root 97, children 85 (success 4, fail 81, undetermined 0), E1' holds for 5/97, E1 by sweep True, 0.08s
+p=670849 Hensel: pairs 48 (k90>=2: 44, kref>k90: 4), exceptions 0, lifts beyond kref 19
+p=1740481 ell=11 BFS: type 1, D=0, checked 1, vertices 1, hit (11,1) II d=81, path [], 0.0s
+p=1740481 sweep: S0=1/344 (II 1, I 1), failing root 343, children 233 (success 5, fail 228, undetermined 0), E1' holds for 72/343, E1 by sweep True, 0.25s
+p=1740481 Hensel: pairs 98 (k90>=2: 90, kref>k90: 9), exceptions 0, lifts beyond kref 40
+p=3678481 ell=23 BFS: type 1, D=0, checked 1, vertices 1, hit (23,1) II d=6, path [], 0.0s
+p=3678481 sweep: S0=2/346 (II 1, I 2), failing root 344, children 266 (success 7, fail 259, undetermined 0), E1' holds for 44/344, E1 by sweep True, 0.59s
+p=3678481 Hensel: pairs 148 (k90>=2: 134, kref>k90: 15), exceptions 0, lifts beyond kref 68
+p=5843041 ell=11 BFS: type 1, D=0, checked 1, vertices 1, hit (11,1) II d=81, path [], 0.0s
+p=5843041 sweep: S0=2/631 (II 1, I 2), failing root 629, children 447 (success 6, fail 441, undetermined 0), E1' holds for 91/629, E1 by sweep True, 1.05s
+p=5843041 Hensel: pairs 244 (k90>=2: 234, kref>k90: 12), exceptions 0, lifts beyond kref 110
+p=8615161 ell=17 BFS: type 1, D=1, checked 893, vertices 620, hit (31,1) II d=578, path [{'parent': 17, 'tau': 29, 'child': 31, 'v_child': 1}], 0.11s
+p=8615161 sweep: S0=0/356 (II 0, I 0), failing root 356, children 273 (success 6, fail 267, undetermined 0), E1' holds for 40/356, E1 by sweep True, 0.82s
+p=8615161 Hensel: pairs 205 (k90>=2: 192, kref>k90: 14), exceptions 0, lifts beyond kref 76
+p=18490201 ell=13 BFS: type 1, D=0, checked 1, vertices 1, hit (13,1) II d=32, path [], 0.0s
+p=18490201 sweep: S0=1/596 (II 1, I 1), failing root 595, children 442 (success 11, fail 431, undetermined 0), E1' holds for 67/595, E1 by sweep True, 2.01s
+p=18490201 Hensel: pairs 318 (k90>=2: 312, kref>k90: 10), exceptions 0, lifts beyond kref 125
+p=38296729 ell=31 BFS: type 1, D=0, checked 1, vertices 1, hit (31,1) II d=5, path [], 0.0s
+p=38296729 sweep: S0=1/963 (II 1, I 0), failing root 962, children 686 (success 14, fail 672, undetermined 0), E1' holds for 85/962, E1 by sweep True, 4.62s
+p=38296729 Hensel: pairs 531 (k90>=2: 510, kref>k90: 24), exceptions 0, lifts beyond kref 191
+p=53722321 ell=31 BFS: type 1, D=0, checked 1, vertices 1, hit (31,1) II d=22544, path [], 0.0s
+p=53722321 sweep: S0=2/1140 (II 1, I 2), failing root 1138, children 805 (success 23, fail 782, undetermined 0), E1' holds for 176/1138, E1 by sweep True, 6.05s
+p=53722321 Hensel: pairs 670 (k90>=2: 657, kref>k90: 17), exceptions 0, lifts beyond kref 238
+p=84525841 ell=17 BFS: type 1, D=1, checked 1116, vertices 813, hit (79,1) II d=230, path [{'parent': 17, 'tau': 1, 'child': 79, 'v_child': 1}], 0.2s
+p=84525841 sweep: S0=0/1115 (II 0, I 0), failing root 1115, children 812 (success 10, fail 802, undetermined 0), E1' holds for 107/1115, E1 by sweep True, 7.84s
+p=84525841 Hensel: pairs 731 (k90>=2: 708, kref>k90: 27), exceptions 0, lifts beyond kref 259
+judgments: {"J1_status": {"2521": 1, "66529": 1, "345601": 1, "670849": 1, "1740481": 1, "3678481": 1, "5843041": 1, "8615161": 1, "18490201": 1, "38296729": 1, "53722321": 1, "84525841": 1}, "J1_all_type1": true, "J2_inputs_with_D_ge2_or_type2": [], "J2_E1_rejected": false, "J3_D_counts_new11": {"0": 9, "1": 2}, "J3_prediction_met": true, "D": {"2521": 1, "66529": 0, "345601": 0, "670849": 0, "1740481": 0, "3678481": 0, "5843041": 0, "8615161": 1, "18490201": 0, "38296729": 0, "53722321": 0, "84525841": 1}, "branches": ["R3"]}
+done: 24.25s
