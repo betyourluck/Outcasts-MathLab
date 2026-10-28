@@ -1,0 +1,16 @@
+unit checks ok
+G0 ok: HEAD 6bc67488e8abe57625b5eb8fe0f1cf3a79d05d9b (pushed), inputs [2521, 8615161, 84525841]
+p=2521 ell=11 A=11: root 13 sources, S0=0, root stages {'success': 0, 'base': 11, 'square': 13, 'joint': 2}, obstructions {'real': 1, 'group': 0, 'exponent': 11, 'composite': 14}
+p=2521 children 12 (success 1: [29], in B []), failing children 11 with 39 sources
+p=2521 failing children: stages {'success': 0, 'base': 73, 'square': 4, 'joint': 1}, obstructions {'real': 14, 'group': 8, 'exponent': 37, 'composite': 19}
+p=2521 W: r_B=28, |W|=3, children 2, table {'child_success': 0, 'child_fail': 2, 'nonchild_success': 1, 'nonchild_fail': 0}, Fisher two-sided 0.3333; 0.01s
+p=8615161 ell=17 A=51: root 356 sources, S0=0, root stages {'success': 0, 'base': 515, 'square': 195, 'joint': 2}, obstructions {'real': 266, 'group': 0, 'exponent': 0, 'composite': 446}
+p=8615161 children 273 (success 6: [31, 101, 181, 239, 359, 877], in B [31, 101, 181, 239, 359]), failing children 267 with 7086 sources
+p=8615161 failing children: stages {'success': 0, 'base': 13121, 'square': 989, 'joint': 62}, obstructions {'real': 1158, 'group': 65, 'exponent': 8345, 'composite': 4604}
+p=8615161 W: r_B=713, |W|=59, children 35, table {'child_success': 5, 'child_fail': 30, 'nonchild_success': 11, 'nonchild_fail': 13}, Fisher two-sided 0.01542; 1.98s
+p=84525841 ell=17 A=51: root 1115 sources, S0=0, root stages {'success': 0, 'base': 1525, 'square': 699, 'joint': 6}, obstructions {'real': 726, 'group': 0, 'exponent': 0, 'composite': 1504}
+p=84525841 children 812 (success 10: [79, 83, 149, 179, 211, 293, 383, 599, 1427, 2333], in B [79, 83, 149, 179, 211, 293, 383, 599, 1427]), failing children 802 with 34504 sources
+p=84525841 failing children: stages {'success': 0, 'base': 67145, 'square': 1788, 'joint': 75}, obstructions {'real': 6225, 'group': 301, 'exponent': 37367, 'composite': 25115}
+p=84525841 W: r_B=2231, |W|=180, children 87, table {'child_success': 9, 'child_fail': 78, 'nonchild_success': 11, 'nonchild_fail': 82}, Fisher two-sided 0.8154; 16.29s
+judgments: {"J1": {"pooled_table": {"child_success": 14, "child_fail": 108, "nonchild_success": 22, "nonchild_fail": 95}, "fisher_two_sided_p": 0.14754611708333173, "success_rate_children": 0.11475409836065574, "success_rate_nonchildren": 0.18803418803418803, "branch": "J1-a"}, "J2": {"units": 83180, "stages": {"success": 0, "base": 80266, "square": 2777, "joint": 137}, "share_base": 0.9649675402741044, "share_square": 0.03338542918970906, "share_joint": 0.0016470305361865833, "branch": "J2-a"}, "J3": {"units": 83180, "obstructions": {"real": 7383, "group": 366, "exponent": 45712, "composite": 29719}, "share_real": 0.08875931714354413, "branch": "J3-b"}}
+done: 18.57s
