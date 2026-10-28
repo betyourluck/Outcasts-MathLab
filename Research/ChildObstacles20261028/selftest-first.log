@@ -1,0 +1,12 @@
+unit checks ok
+Traceback (most recent call last):
+  File "D:\Github\Outcasts-MathLab\Research\ChildObstacles20261028\childobs.py", line 561, in <module>
+    main()
+    ~~~~^^
+  File "D:\Github\Outcasts-MathLab\Research\ChildObstacles20261028\childobs.py", line 529, in main
+    out['regression_2521_root'] = regression_2521(root)
+                                  ~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Github\Outcasts-MathLab\Research\ChildObstacles20261028\childobs.py", line 423, in regression_2521
+    assert got == ROOT2521, got
+           ^^^^^^^^^^^^^^^
+AssertionError: {'base_both': [1, 5, 9, 15, 19], 'square_both': [3, 11, 13, 23, 25], 'mixed': [(7, 'joint', 'square'), (17, 'joint', 'square'), (21, 'square', 'base')]}

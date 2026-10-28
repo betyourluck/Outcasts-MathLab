@@ -1,0 +1,11 @@
+unit checks ok
+regression 2521 root stages vs >>88: OK {'ok': True, 'restricted_equals_88': {'base_both': [1, 5, 9, 15, 19], 'square_both': [3, 7, 11, 13, 17, 23, 25], 'mixed': [(21, 'square', 'base')]}, 'direct': {'base_both': [1, 5, 9, 15, 19], 'square_both': [3, 11, 13, 23, 25], 'mixed': [(7, 'joint', 'square'), (17, 'joint', 'square'), (21, 'square', 'base')]}, 'differences': [(7, 'I', 'square', 'joint'), (17, 'I', 'square', 'joint')]}
+p=1201 ell=11 A=11: root 9 sources, S0=0, root stages {'success': 0, 'base': 8, 'square': 5, 'joint': 5}, obstructions {'real': 0, 'group': 0, 'exponent': 8, 'composite': 10}
+p=1201 children 9 (success 1: [13], in B [13]), failing children 8 with 18 sources
+p=1201 failing children: stages {'success': 0, 'base': 36, 'square': 0, 'joint': 0}, obstructions {'real': 12, 'group': 0, 'exponent': 8, 'composite': 16}
+p=1201 W: r_B=20, |W|=2, children 2, table {'child_success': 1, 'child_fail': 1, 'nonchild_success': 0, 'nonchild_fail': 0}, Fisher two-sided 1; 0.01s
+p=100687129 ell=17 A=51: root 1217 sources, S0=1, root stages {'success': 0, 'base': 1706, 'square': 725, 'joint': 1}, obstructions {'real': 742, 'group': 0, 'exponent': 0, 'composite': 1690}
+p=100687129 children 901 (success 15: [53, 59, 191, 251, 263, 281, 359, 383, 389, 647, 3631, 4637, 10151, 18191, 120011], in B [53, 59, 191, 251, 263, 281, 359, 383, 389, 647]), failing children 886 with 37833 sources
+p=100687129 failing children: stages {'success': 0, 'base': 73230, 'square': 2364, 'joint': 72}, obstructions {'real': 6062, 'group': 1019, 'exponent': 43669, 'composite': 24916}
+p=100687129 W: r_B=2435, |W|=178, children 83, table {'child_success': 10, 'child_fail': 73, 'nonchild_success': 17, 'nonchild_fail': 78}, Fisher two-sided 0.3026; 17.96s
+done: 18.05s
