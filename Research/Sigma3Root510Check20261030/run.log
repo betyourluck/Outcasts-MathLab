@@ -1,0 +1,27 @@
+python 3.13.12 sympy 1.14.0 HEAD aabbf71
+p 42698041 ell 41 sources 510
+tally {"B1": 259, "B2": 224, "B3": 27, "S1": 340, "S2": 134, "S3": 36, "X_gfail": 411, "X_gfail&S1": 277, "X_gfail&notS1": 134, "X_nodiv": 99, "X_nodiv&S1": 63, "X_nodiv&notS1": 36, "rad_checked": 25, "succ_I": 0, "succ_II": 0, "typeI_rad_pass_full_fail": [27, 81, 135, 459]}
+example {"tau": 11, "c": 14883, "x": 10678231, "f": {"347": 1, "30773": 1}, "K_order": 80, "minus_x_mod_123": 14, "R123": [1, 23, 37, 47, 62, 73, 101, 109, 115]}
+OK B1 expected 259 got 259
+OK B2 expected 224 got 224
+OK B3 expected 27 got 27
+OK B4 expected 0 got 0
+OK S1 expected 340 got 340
+OK S2 expected 134 got 134
+OK S3 expected 36 got 36
+OK S4 expected 0 got 0
+OK X_gfail expected 411 got 411
+OK X_gfail&S1 expected 277 got 277
+OK X_nodiv expected 99 got 99
+OK X_nodiv&S1 expected 63 got 63
+OK X_div expected 0 got 0
+OK tau11.c expected 14883 got 14883
+OK tau11.x expected 10678231 got 10678231
+OK tau11.f expected {347: 1, 30773: 1} got {347: 1, 30773: 1}
+OK tau11.K_order expected 80 got 80
+OK tau11.minus_x_mod_123 expected 14 got 14
+OK tau11.R123 expected [1, 23, 37, 47, 62, 73, 101, 109, 115] got [1, 23, 37, 47, 62, 73, 101, 109, 115]
+OK typeI_rad_pass_full_fail expected [27, 81, 135, 459] got [27, 81, 135, 459]
+OK min tau of S1 expected 341 got 341
+OK 21 DIFF 0
+seconds 3.55
