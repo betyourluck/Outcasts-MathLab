@@ -1,0 +1,83 @@
+{
+ "8615161": {
+  "ell": 17,
+  "n": 356,
+  "regression_rows": 356,
+  "tally": {
+   "B1": 124,
+   "B2": 163,
+   "B3": 69,
+   "S1": 237,
+   "S2": 69,
+   "S3": 47,
+   "S4": 3,
+   "X_div": 4,
+   "X_div&S1": 1,
+   "X_div&notS1": 3,
+   "X_gfail": 218,
+   "X_gfail&S1": 149,
+   "X_gfail&notS1": 69,
+   "X_nodiv": 134,
+   "X_nodiv&S1": 87,
+   "X_nodiv&notS1": 47,
+   "rad_checked": 25,
+   "succ_I": 0,
+   "succ_II": 0,
+   "typeI_rad_pass_full_fail": [
+    3,
+    9,
+    23,
+    51,
+    153,
+    175,
+    339
+   ]
+  }
+ },
+ "84525841": {
+  "ell": 17,
+  "n": 1115,
+  "regression_rows": 1115,
+  "tally": {
+   "B1": 318,
+   "B2": 459,
+   "B3": 338,
+   "S1": 743,
+   "S2": 204,
+   "S3": 160,
+   "S4": 8,
+   "X_div": 11,
+   "X_div&S1": 3,
+   "X_div&notS1": 8,
+   "X_gfail": 669,
+   "X_gfail&S1": 465,
+   "X_gfail&notS1": 204,
+   "X_nodiv": 435,
+   "X_nodiv&S1": 275,
+   "X_nodiv&notS1": 160,
+   "rad_checked": 25,
+   "succ_I": 0,
+   "succ_II": 0,
+   "typeI_rad_pass_full_fail": [
+    3,
+    7,
+    17,
+    55,
+    61,
+    99,
+    153,
+    171,
+    351,
+    459,
+    507,
+    675,
+    867,
+    1105,
+    1215,
+    1331,
+    1445,
+    1859
+   ]
+  }
+ }
+}
