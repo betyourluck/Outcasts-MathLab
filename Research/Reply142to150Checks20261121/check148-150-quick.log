@@ -1,0 +1,66 @@
+--- >>148
+     p=40609 l=11 M=201: a=1, b=11, a*l-b = 0*p ; l<=M: True
+     p=2521 l=11 M=50: a=1, b=11, a*l-b = 0*p ; l<=M: True
+     p=42698041 l=41 M=6534: a=1, b=41, a*l-b = 0*p ; l<=M: True
+OK   148: hard primes below 10^7 with least non-residue prime l > floor(sqrt p) 0
+OK   148: p=40609: 176*3461 - 15p, r = 3461 > p/12 (1, True)
+OK   148: p0 prime, class, least non-residue prime (True, True, 41)
+OK   148: non-residue primes <= 349 32
+OK   148: S = root and its direct children that lie in U [41, 67, 83, 131, 151, 157, 181, 269, 313, 331]
+OK   148: sum over the 32 vertices of (sum of the 10 symbols)^2 326
+     148: vertices b of U with all ten symbols +1 (the only ones that may lie outside C): []
+OK   148: symbol criterion vs direct enumeration of every admissible t (10 x 31 pairs): disagreements 0
+OK   148: A(q) t^2 < 3 p0 for q <= 349, t <= 347 True
+OK   148: vertex 43, t=1: c, x, 143 | x, x + 143 = 43 * 248248, lower source (43, 10674521, 0, 10674664, True)
+OK   148: vertex 43: 143 is a Type II witness; exact identity (True, 10674521)
+OK   148: 61, 89, 157, 241, 277, 313 have an edge to 43 True
+     148: all vertices of U with an edge to 43: [47, 61, 67, 83, 89, 127, 139, 157, 167, 241, 271, 277, 283, 307, 313] ; of these in S: [67, 83, 157, 313]
+     148: smallest t with 157 | x(41, t): 69
+     148: smallest t with 43 | x(157, t): 31
+     148: smallest t with 313 | x(41, t): 79
+     148: smallest t with 43 | x(313, t): 11
+OK   148: 2521: non-residue primes <= floor(cbrt 2521) = 13 [11]
+--- >>149
+OK   149: 4*461 + 1 = 15 * 123, 461 prime > 349 (1845, True)
+     149: modulus has 144 digits; first prime in the class found at k = 13 ( 145 digits )
+OK   149: same 32 non-residue primes <= 349; p in a hard class (True, True)
+OK   149: the edge relation among the 32 vertices is unchanged (symbol (-A(q) p / b) for all ordered pairs) True
+OK   149: root 41, t=1 at the new p: c = 123, 461 | x, c | 4*461 + 1 (123, 0, 0)
+OK   149: Type I at the root of the new p (d = x^2/461): exact identity holds True
+OK   149: e | x^2 <=> m(e) | x on 20,000 random pairs: disagreements 0
+--- >>150
+OK   150 ex1: p prime, hard class, least non-residue prime (True, True, 17)
+OK   150 ex1: base congruences (mod 80, 111, 59, 17) (49, 94, 31, 11)
+OK   150 ex1: 17 -(5)-> 37 and 17 -(47)-> 59 are edges (True, True)
+OK   150 ex1: vertex 37, t=1: c=111, 20 | x, 111 | p + 4*9800, -c mod 7 (111, 0, 0, 1)
+OK   150 ex1: vertex 59, t=1: c=59, 59 | p + 28, -c mod 7 (59, 0, 4)
+OK   150 ex1: p mod 7, and 17 | N = (3p+1)/4 (2, 0, 0)
+OK   150 ex2: p prime, hard class, least non-residue prime (True, True, 17)
+OK   150 ex2: base congruences (mod 80, 111, 59, 17) (49, 94, 31, 11)
+OK   150 ex2: 17 -(5)-> 37 and 17 -(47)-> 59 are edges (True, True)
+OK   150 ex2: vertex 37, t=1: c=111, 20 | x, 111 | p + 4*9800, -c mod 7 (111, 0, 0, 1)
+OK   150 ex2: vertex 59, t=1: c=59, 59 | p + 28, -c mod 7 (59, 0, 4)
+OK   150 ex2: p mod 7, and 17 | N = (3p+1)/4 (2, 0, 0)
+OK   150 ex1: lower sources of 37 and of 59 all fail (count, all fail) ((15, True), (20, True))
+OK   150 ex1: c = (7p+8)/17 = 119103 = 3*29*37^2, x, e (119103, 119103, {3: 1, 29: 1, 37: 2}, 102088, 89327)
+OK   150 ex1: e | x^2, 4e + 1 = 3c, upper source of vertex 29 with t = 37 (0, 0, True, True)
+OK   150 ex1: path 17 -(1)-> 263 -(19)-> 29 (True, True)
+OK   150 ex1: every prime factor of x is <= p/17; exact identity (True, 102088)
+OK   150 ex2: lower sources of 37 and of 59 all fail (count, all fail) ((3150, True), (4321, True))
+     (1.4 s for the 7,471 lower sources)
+OK   150 ex2: (7p+8)/17 = 3*37*41*97*12329 {3: 1, 37: 1, 41: 1, 97: 1, 12329: 1}
+OK   150 ex2: six rows: (q is a vertex, lower, f | x^2, 7 does not divide c f, type congruence, -c mod 49 = stated residue, source fails) (long)
+OK   150 ex2: reachability 17 -(9)-> 31, 17 -(3113)-> 5591, 37 -(939)-> 1847, 37 -(1787)-> 3407, 37 -(12581)-> 135007 (True, True, True, True, True)
+OK   150 ex2: p mod 49, p mod 101; residues 2 mod 7 not removed by the six rows (16, 67, [16])
+OK   150 ex2: c = (49p+50)/101 = 79167511 * 9^2, x, e (6412568391, 6412568391, True, 4907577850, 4809426293)
+OK   150 ex2: e | x^2, 4e + 1 = 3c, upper source of vertex 79167511 with t = 9 (0, 0, True, True)
+OK   150 ex2: the five edges of the path [True, True, True, True, True]
+OK   150 ex2: every prime factor of x is <= p/17; exact identity (True, 4907577850)
+--- additions
+     p=289249: (a,h,b)=(7,17,8): h*c = a*p + b: True ; (h/p) = -1, (b/p) = 1, (c/p) = -1
+     p=13217743009: (a,h,b)=(49,101,50): h*c = a*p + b: True ; (h/p) = -1, (b/p) = 1, (c/p) = -1
+OK   add: ex2, (a,h,b) = (7,17,8): c = (7p+8)/17, e | x^2, 4e+1 = 3c, exact 4/p identity (c is not of the form A(q) t^2) (True, 0, 0, True)
+OK   add: p=289249, (a,h,b) = (1,17,6): c = (p+6)/17, e | x^2, 4e+1 = 3c, exact 4/p identity (True, 0, 0, True)
+OK   add: p=13217743009, (a,h,b) = (1,17,6): c = (p+6)/17, e | x^2, 4e+1 = 3c, exact 4/p identity (True, 0, 0, True)
+     add: {'hard primes < 10^7': 20513, 'N has a prime factor = 2 mod 3': 9019}
+47 OK / 0 DIFF, 11.2 s

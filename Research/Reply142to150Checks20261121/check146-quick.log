@@ -1,0 +1,24 @@
+OK   A: integer triples (s, a, h) with 1<=s<=8, a<=s, h<=3a, 4hs<=9(h+a): max h 9
+     A: triples attaining h = 9: [(3, 3, 9)] ; number of triples 80
+OK   B: remaining tuples, their max h, tuples with a prime factor >= 11 in h, and the outcomes of those (67, 9, 34, {'r_range': 34})
+OK   C: hard primes below 10^6 for which some n in 1..9 is a non-residue 0
+     C: hard primes below 10^6: 2370 ; smallest: 1009
+     D: inputs 288 ; least non-residue prime l: [(11, 150), (13, 78), (17, 41), (19, 16), (23, 2), (29, 1)]
+        sources                                                1407680
+        successful sources                                        4929
+        successful sources with Omega_- = 1                       4850
+        successful sources with Omega_- >= 3                        79
+        upper                                                  1109118
+        upper successes with every prime factor <= p/l             230
+        upper, largest prime factor in (p/l, p/9]                46076
+        upper, prime factor > p/9                               247045
+        upper, prime factor > p/l                               293121
+OK   D: upper sources with a prime factor > p/l that succeed 0
+     D: cofactor s = x / r for those sources: [(1, 113029), (2, 61728), (3, 21594), (4, 31790), (5, 27259), (6, 5876), (7, 12359), (8, 8072), (9, 1402), (10, 4635), (11, 2524), (12, 418), (13, 982), (14, 845), (15, 81), (16, 295), (17, 109), (18, 20), (19, 32), (20, 32), (21, 4), (22, 11), (23, 10), (24, 2), (25, 7), (26, 4), (28, 1)]
+     D: exponent of the non-residue prime in the witnesses d (Omega_- = 1 sources): [(('I', 1), 4757), (('II', 0), 3529), (('II', 2), 3529)]
+OK   D: Type I witnesses have exponent 1, Type II witnesses exponent 0 or 2 True
+     D: largest (largest prime factor of x) * l / p among upper successes: 0.9375 (40609, 11, 14767, 1, 14767, 13844, {2: 2, 3461: 1})
+OK   E: hard primes below 10^8 179468
+     E: smallest p / l^2 = 8.34 at (p, l) = (1009, 11) ; largest l = 67 at p = 48473881
+OK   E: l^2 < p for every hard prime below 10^8 True
+7 OK / 0 DIFF, 86.2 s

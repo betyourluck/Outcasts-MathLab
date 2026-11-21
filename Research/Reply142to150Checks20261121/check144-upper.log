@@ -1,0 +1,5 @@
+inputs: 288
+{'upper sources': 1109118, 'upper sources with a prime factor > p/9': 247045}
+by tau (5 means tau >= 5): [(1, 129831), (3, 47215), (5, 69999)] ; successes by tau: []
+successes: 0
+24.8 s

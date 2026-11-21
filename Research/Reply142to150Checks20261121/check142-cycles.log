@@ -1,0 +1,7 @@
+inputs: 288 (hard primes 1009 <= p < 10^5 plus 2521, 12889 and the 17 primes)
+single-source vertices: 631796 ; in U (x has a prime factor > p/9): 129831 ; F-edges with both ends in U: 22123
+cofactor s on the F-edges inside U: [(1, 14376), (2, 4048), (3, 1479), (4, 1047), (5, 797), (7, 235), (8, 141)]
+F-cycles inside U: 0 []
+longest F-path inside U (number of vertices): (9, 60601)
+vertices of U checked directly over all divisors (p < 20000), all failing: 6106
+10.7 s

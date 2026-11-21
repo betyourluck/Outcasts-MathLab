@@ -1,0 +1,16 @@
+Omega=1    Type I witnesses                        4757
+Omega=1    Type II witnesses                       7058
+Omega=1    sources                              1377008
+Omega=1    sources with a Type I witness           3740
+Omega=1    sources with a Type II witness          2488
+Omega=1    sources with either                     4850
+Omega>=3   Type I witnesses                          94
+Omega>=3   Type II witnesses                         64
+Omega>=3   sources                                30672
+Omega>=3   sources with a Type I witness             70
+Omega>=3   sources with a Type II witness            21
+Omega>=3   sources with either                       79
+total sources 1407680 ; total Type I witnesses 4851 ; total Type II witnesses 7122
+exponent of r in the witnesses, Omega_- = 1 sources: [(('I', 1), 4757), (('II', 0), 3529), (('II', 2), 3529)]
+p/r = 40609/3461 ; 176/15 - p/r = 1/51915 ; 1/(15*3461) = 1/51915 ; 176*r - 15*p = 1
+74.7 s

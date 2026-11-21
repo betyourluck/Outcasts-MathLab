@@ -1,0 +1,4 @@
+cases checked: 442 ; pass the local congruences but die by size: 6 [('j=1', 4, 1, 16, 44), ('j=2', 5, 1, 5, 5), ('j=1', 6, 1, 36, 102), ('j=2', 7, 1, 7, 7), ('j=1', 8, 1, 32, 88), ('j=1', 8, 3, 64, 184)]
+surviving cases: 1
+   SURVIVES ('j=2', 5, 3, 5, 5)
+13.0 s

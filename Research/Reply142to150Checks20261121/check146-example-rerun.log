@@ -1,0 +1,9 @@
+p prime True ; p mod 840 = 289 ; least non-residue prime l = 11
+q prime True ; q non-residue True ; sigma = 1
+c = 14767 ; 3c > p: True ; only tau = 1 admissible (9c >= 3p): True ; x = 13844 = {2: 2, 3461: 1}
+r = 3461 ; r non-residue True ; s = x/r = 4 ; 9r > p: False ; l*r > p: False ; 12r > p: True
+divisors of x^2: 15 ; Type I witnesses d: [3461] ; Type II witnesses d: []
+denominators 13844 38071 6184100956 ; 4/p = 1/x + 1/y + 1/z exactly: True
+e = x^2/d = 55376 = {2: 4, 3461: 1} ; 4e + 1 = 221505 = 15 * c, remainder 0
+h c = alpha p + beta with (h, alpha, beta) = (11, 4, 1): True ; h non-residue True ; h = l: True
+4hs/(h + alpha) = 176/15 ; p/r = 40609/3461 ; difference = 1/51915 ; 1/(15*3461) = 1/51915 ; 176*r - 15*p = 1

@@ -1,0 +1,48 @@
+--- A. caveats of >>150
+   p=289249: root 17 lower sources 22, successful (t, branch, d) [first 4 of 2]: [(1, 'I', 263), (1, 'II', 605)]
+   p=13217743009: root 17 lower sources 4647, successful (t, branch, d) [first 4 of 1]: [(1, 'I', 2440066083801371)]
+   p=13217743009: vertex 31 lower sources 5961, successful outside the table rows [first 3 of 5]: [(1, 'I', 46), (1, 'II', 529), (3, 'II', 2)]
+   p=13217743009: vertex 5591 lower sources 444, successful outside the table rows [first 3 of 1]: [(3, 'II', 398)]
+--- B. p0 = 42698041, window = non-residue primes <= 349
+   sources per vertex (41): 510 ; successes at 41: 0
+   window vertices with a successful source: 9 of 32: [43, 47, 71, 167, 179, 191, 263, 271, 277]
+      43: 863 sources, first success (1, 'I', 138768773)
+      47: 825 sources, first success (1, 'I', 21349044)
+      71: 672 sources, first success (1, 'I', 56704)
+      167: 438 sources, first success (1, 'I', 46011)
+      179: 423 sources, first success (1, 'II', 289)
+      191: 409 sources, first success (1, 'I', 96071022)
+      263: 349 sources, first success (1, 'I', 363906)
+      271: 344 sources, first success (5, 'I', 17584336)
+      277: 196 sources, first success (3, 'II', 18590)
+   successes among S: []
+   window vertices not in S that no member of S reaches (all ten symbols +1): []
+   distance from the root inside the window: [(0, 1), (1, 9), (2, 22)] ; unreached: []
+   successful window vertices and their distance: [(43, 2), (47, 2), (71, 2), (167, 2), (179, 2), (191, 2), (263, 2), (271, 2), (277, 2)]
+   4.8 s
+--- C/D. 288 inputs
+   C: Type I witnesses checked against the (k,a,h) form: lower 4621, upper 230; identities failing: 0
+   C: lower sources with a Type I witness: 3580; smallest multiplier k per source, most frequent: [(7, 135), (15, 134), (3, 132), (23, 126), (31, 121), (47, 110), (11, 99), (71, 97), (39, 90), (119, 74)]
+      k = 3: 132 ; k <= 11: 366 ; k <= 39: 941 ; largest smallest-k: 2615495
+   C: upper sources with a Type I witness: 230; smallest multiplier k per source, most frequent: [(3, 16), (31, 13), (15, 12), (119, 12), (7, 11), (23, 10), (11, 10), (47, 10), (95, 7), (71, 6)]
+      k = 3: 16 ; k <= 11: 37 ; k <= 39: 84 ; largest smallest-k: 9903
+   C: inputs                                                                         288
+   C: N_3 has a prime factor = 2 mod 3                                               99
+   C: inputs with a Type I witness of multiplier k = 3 at some square source         73
+   C: ... of which N_3 has a prime factor = 2 mod 3                                  73
+   D: root above the window (l > cbrt p)                                             3
+   D: root in the window                                                             285
+   D: root in the window, closure inside the window has a successful vertex          274
+   D: inputs with the root in the window but no successful vertex in the window closure [first 12 of 11] (p, l, W, window vertices, closure size):
+       (2521, 11, 13, 1, 1)
+       (8761, 17, 20, 2, 1)
+       (9601, 13, 21, 1, 1)
+       (12601, 11, 23, 2, 1)
+       (21121, 17, 27, 3, 1)
+       (21961, 17, 28, 2, 1)
+       (24049, 17, 28, 3, 1)
+       (28081, 17, 30, 3, 1)
+       (31249, 17, 31, 3, 1)
+       (65521, 17, 40, 4, 2)
+       (88729, 17, 44, 4, 1)
+54.6 s

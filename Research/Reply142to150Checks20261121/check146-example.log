@@ -1,0 +1,8 @@
+p prime True p mod 840 289 least non-residue prime 11 | q prime True (q/p) -1 sigma 1
+c 14767 3c>p True 9c>=3p (single source) True x 13844 {2: 2, 3461: 1}
+r 3461 (r/p) -1 s 4 p/r = 11.7333 r*l/p = 0.9375 r*9>p False r*l>p False
+divisors of x^2: 15 Type I witnesses d: [3461] Type II: []
+denominators 13844 38071 6184100956 identity True
+e = x^2/d = 55376 = {2: 4, 3461: 1} ; 4e+1 = 221505 = 15 * c, remainder 0
+reduced: f = e/r = 16 f/s = 4 ; alpha*p+beta = 4p+1 = 162437 = 11 * c, remainder 0 ; h = 11 (h/p) = -1
+4hs = 176 ; h+alpha = 15 ; 4hs/(h+alpha) = 11.7333 ; l*(h+alpha) = 165 ; 9*(h+alpha) = 135

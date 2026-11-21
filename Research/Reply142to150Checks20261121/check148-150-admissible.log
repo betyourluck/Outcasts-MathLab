@@ -1,0 +1,20 @@
+p=2521: {'upper denominators x': 1680, '... with c = A(q) t^2': 401, 'x with a Type I witness': 2, 'x with a Type I witness and c = A(q) t^2': 1}
+p=12889: {'upper denominators x': 8592, '... with c = A(q) t^2': 1638, 'x with a Type I witness': 4, 'x with a Type I witness and c = A(q) t^2': 1}
+p=30241: {'upper denominators x': 20160, '... with c = A(q) t^2': 3527, 'x with a Type I witness': 6, 'x with a Type I witness and c = A(q) t^2': 1}
+p=40609: {'upper denominators x': 27072, '... with c = A(q) t^2': 4611, 'x with a Type I witness': 6, 'x with a Type I witness and c = A(q) t^2': 2}
+p=289249: {'upper denominators x': 192832, '... with c = A(q) t^2': 27204, 'x with a Type I witness': 10, 'x with a Type I witness and c = A(q) t^2': 3, 'x with a multiplier-3 witness': 2, 'x with a multiplier-3 witness and c = A(q) t^2': 1}
+ex1: N = (3p+1)/4 = 216937 = {7: 1, 17: 1, 1823: 1}
+ex1: multiplier-3 pairs (a, h): 12
+   a=1 h=17 b=6 c=17015 lower  vertex q=None  c={5: 1, 41: 1, 83: 1}
+   a=1 h=119 b=40 c=2431 lower  vertex q=None  c={11: 1, 13: 1, 17: 1}
+   a=1 h=1823 b=608 c=159 lower  vertex q=None  c={3: 1, 53: 1}
+   a=1 h=12761 b=4254 c=23 lower  vertex q=None  c={23: 1}
+   a=7 h=17 b=8 c=119103 upper  vertex q=29  c={3: 1, 29: 1, 37: 2}
+   a=7 h=1823 b=610 c=1111 lower  vertex q=None  c={11: 1, 101: 1}
+   a=17 h=1 b=6 c=4917239 c >= 3p  vertex q=None  c={23: 1, 439: 1, 487: 1}
+   a=17 h=7 b=8 c=702463 upper  vertex q=None  c={719: 1, 977: 1}
+   a=119 h=1 b=40 c=34420671 c >= 3p  vertex q=None  c={3: 2, 3824519: 1}
+   a=1823 h=1 b=608 c=527301535 c >= 3p  vertex q=None  c={5: 1, 18049: 1, 5843: 1}
+   a=1823 h=7 b=610 c=75328791 c >= 3p  vertex q=None  c={3: 1, 31: 1, 79: 1, 10253: 1}
+   a=12761 h=1 b=4254 c=3691110743 c >= 3p  vertex q=3691110743  c={3691110743: 1}
+9.6 s

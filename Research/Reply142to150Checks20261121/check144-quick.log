@@ -1,0 +1,14 @@
+OK   tuples (s, sigma, alpha, beta, h) from f | s^2, and the converse map (438, True)
+OK   size stages (q range, r range, left for congruences) (85, 286, 67)
+OK   congruence stage: every one of the 67 tuples dies at some prime (CRT, no full period) 0
+     prime at which each tuple dies (first in the order 2,3,5,7,...): [(2, 61), (3, 4), (5, 2)]
+OK   PR JSON: same 438 tuples True
+OK   PR JSON: outcome of every tuple (q_range / r_range / congruence) True
+OK   PR JSON: summary outcomes and unresolved ({'q_range': 85, 'congruence': 67, 'r_range': 286}, [])
+OK   PR JSON: periods L = 840 h s sigma and residues visited (6 per 840) (True, 9288)
+     residues visited in the full-period check: 9288
+     sigma = 3, j = 2: (s, f) with 3 not dividing s and 3 | f + s^2: [(2, 2), (4, 2), (4, 8), (5, 5), (8, 2), (8, 8), (8, 32)]
+OK   sigma = 3, j = 2: the surviving (s, f) are the odd powers of 2 for s in {2,4,8} and f = 5 for s = 5 [(2, 2), (4, 2), (4, 8), (5, 5), (8, 2), (8, 8), (8, 32)]
+     random sample: 60 hard primes in (10^6, 3*10^6); (vertex, f) pairs checked: {'sigma3 f=2 mod 3': 224577, 'sigma1': 358811}
+OK   j = 2: (-f/q) = -1 on every checked pair 0
+9 OK / 0 DIFF, 290.7 s

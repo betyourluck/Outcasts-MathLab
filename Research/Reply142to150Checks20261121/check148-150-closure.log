@@ -1,0 +1,15 @@
+inputs                                                                             288
+C_p has a successful lower source                                                  288
+C_p has no successful lower source (hypothesis of the target lemma)                0
+C_p has a successful upper source                                                  75
+C_p has a successful upper source, all of them with every prime factor of x <= p/l 75
+C_p has no successful upper source                                                 213
+C_p has no successful source at all                                                0
+successful lower sources in C_p                                                    4527
+successful upper sources in C_p                                                    88
+successful upper sources, whole graph                                              230
+successful lower sources, whole graph                                              4699
+vertices in C_p                                                                    230427
+vertices, whole graph                                                              854046
+inputs with at most 2 successful lower sources in C_p: []
+53.5 s

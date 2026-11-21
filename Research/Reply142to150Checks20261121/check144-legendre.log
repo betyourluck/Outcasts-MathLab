@@ -1,0 +1,9 @@
+PR tuples left for the congruence stage: 67 ; their h values: [1, 2, 3, 4, 5, 6, 7, 8, 9] ; all with prime factors <= 7: True
+PR tuples whose h has a prime factor >= 11: 34 ; outcomes: {'r_range': 34}
+(s, alpha, beta, h) with h >= 11, h <= 3 alpha and 4hs <= 9(h + alpha): []
+inputs: 288
+   lower (3c < p)                       sources   298562   successful   4699
+   upper, x has a prime factor > p/9    sources   247045   successful      0
+   upper, x is p/9-smooth               sources   862073   successful    230
+   successful sources by branch: [(('lower (3c < p)', '-', 'II'), 1119), (('lower (3c < p)', 'I', '-'), 2190), (('lower (3c < p)', 'I', 'II'), 1390), (('upper, x is p/9-smooth', 'I', '-'), 230)]
+87.2 s
